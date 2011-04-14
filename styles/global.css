@@ -259,7 +259,8 @@ section.mortgagecalculator label {
 	color: #555;
 }
 section.mortgagecalculator input[type=text] {
-	text-align: right;
+	position: absolute;
+	right: 0;
 	display: block;
 	padding: 5px;
 	width: 250px;
