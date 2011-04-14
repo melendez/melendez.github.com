@@ -1,8 +1,80 @@
 ---
 layout: default
-title: MLS Property Search
+title: Mortgage Calculator
 ---
-<section class='content mlssearch'>
+<section class='content mortgagecalculator'>
 	<h3>Mortgage Calculator</h3>
-	<p>(currently a work in progess...)</p>
+
+	<p>Melendez Realty Group maintains strategic relationships with some of the most reputable mortgage managers. 
+	We understand that it is essential that our clients have the best and most diverse range of financing options at their fingertips.</p>
+	
+	<hr />
+	<form class='wstxCalculatorForm' id='LoanCalculator_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9'> 
+		<h6 id='formLabel_LoanCalculatorForm' controlID='wstForm_LoanCalculatorForm'>Loan Calculator</h6>
+	
+	    <label id='formLabel_Amount_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' controlID='text_LoanAmount_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9'>Amount of Loan:</label>
+	    <input name='Amount of Loan' class='calcInput' id='text_LoanAmount_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' onkeypress='return lc_text_LoanAmount_onkeypress(event, this)' onfocus='return lc_text_LoanAmount_onfocus(this)' onchange='return lc_text_LoanAmount_onchange(this)' type='text' labelID='formLabel_Amount_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' value='Entry required' /><br />
+	
+		<label id='formLabel_Interest_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' controlID='text_APR_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9'>Annual Interest Rate (%):</label>
+	    <input name='Annual Interest Rate' class='calcInput' id='text_APR_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' onkeypress='return lc_text_APR_onkeypress(event, this)' onfocus='return lc_text_APR_onfocus(this)' onchange='return lc_text_APR_onchange(this)' type='text' labelID='formLabel_Interest_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' value='Entry required' /><br />
+	
+	    <label id='formLabel_Term_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' controlID='text_Term_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9'>Term of Loan:</label>
+	    <input name='Term of Loan' class='calcInput' id='text_Term_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' onkeypress='return lc_text_Term_onkeypress(event, this)' onfocus='return lc_text_Term_onfocus(this)' onchange='return lc_text_Term_onchange(this)' type='text' labelID='formLabel_Term_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' value='30 years' /><br />
+	
+	    <label id='formLabel_Payment_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' controlID='text_Payment_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9'>Monthly Loan Payment:</label>
+	    <input name='Monthly Loan Payment' class='calcInput' id='text_Payment_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' language='javascript' type='text' readonly='readonly' labelID='formLabel_Payment_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' /><br />
+	    
+	    <input name='button_Calculate_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' class='calcButtonCalculate' id='button_Calculate_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' onclick="return lc_button_Calculate_onclick(this, '28e2cf59-73c5-42ab-81c8-e608ef3aa2a9')" type='button' value='Calculate' /> 
+	   	<input name='button_Reset_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' class='calcButtonReset' id='button_Reset_28e2cf59-73c5-42ab-81c8-e608ef3aa2a9' onclick="return lc_button_Reset_onclick(this, '28e2cf59-73c5-42ab-81c8-e608ef3aa2a9')" type='button' value="Clear" />	
+	    <input name='FormMailerRedirect' id='FormMailerRedirect' type='hidden' value='/' /><input name='FormMailerSubject' id='FormMailerSubject' type='hidden' value='User Form' /> 
+	</form> 
+	<hr />
+	
+	<form class="wstxCalculatorForm" id="PropertyPriceCalculator_eef77943-d85f-468f-9150-3d3130508c43"> 
+    	<h6 id='formLabel_PropertyPriceCalculatorForm' controlID='wstForm_PropertyPriceCalculator'>Property Price Calculator</h6>
+
+        <label id='formLabel_monthlyPayment_eef77943-d85f-468f-9150-3d3130508c43' controlID='text_Payment_eef77943-d85f-468f-9150-3d3130508c43'>Monthly payment you can afford:</label>
+        <input name='Monthly Payment' class='calcInput' id='text_Payment_eef77943-d85f-468f-9150-3d3130508c43' onkeypress='return ppc_text_Payment_onkeypress(event, this)' onfocus='return ppc_text_Payment_onfocus(this)' onchange='return ppc_text_Payment_onchange(this)' type='text' labelID='formLabel_monthlyPayment_eef77943-d85f-468f-9150-3d3130508c43' value='Entry required' /><br />
+                       
+        <label id='formLabel_downPayment_eef77943-d85f-468f-9150-3d3130508c43' controlID='text_Downpayment_eef77943-d85f-468f-9150-3d3130508c43'>Cash available for down payment and closing costs:</label>
+        <input name='Cash available and closing costs' class='calcInput' id='text_Downpayment_eef77943-d85f-468f-9150-3d3130508c43' onkeypress='return ppc_text_Downpayment_onkeypress(event, this)' onfocus='return ppc_text_Downpayment_onfocus(this)' onchange='return ppc_text_Downpayment_onchange(this)' type='text' labelID='formLabel_downPayment_eef77943-d85f-468f-9150-3d3130508c43' value='Entry required' /><br />
+                           
+        <label id='formLabel_APR_eef77943-d85f-468f-9150-3d3130508c43' controlID='text_APR_eef77943-d85f-468f-9150-3d3130508c43'>Annual mortgage interest rate (%):</label>
+        <input name='Annual mortage interest rate' class='calcInput' id='text_APR_eef77943-d85f-468f-9150-3d3130508c43' onkeypress='return ppc_text_APR_onkeypress(event, this)' onfocus='return ppc_text_APR_onfocus(this)' onchange='return ppc_text_APR_onchange(this)' type='text' labelID='formLabel_APR_eef77943-d85f-468f-9150-3d3130508c43' value='Entry required' /><br />
+                            
+        <label id='formLabel_mortgageTerm_eef77943-d85f-468f-9150-3d3130508c43' controlID='text_Term_eef77943-d85f-468f-9150-3d3130508c43'>Term of mortgage loan:</label>
+        <input name='Term of mortgage loan' class='calcInput' id='text_Term_eef77943-d85f-468f-9150-3d3130508c43' onkeypress='return ppc_text_Term_onkeypress(event, this)' onfocus='return ppc_text_Term_onfocus(this)' onchange='return ppc_text_Term_onchange(this)' type='text' labelID='formLabel_mortgageTerm_eef77943-d85f-468f-9150-3d3130508c43' value='30 years' /><br />
+                
+        <label id='formLabel_closingCosts_eef77943-d85f-468f-9150-3d3130508c43' controlID='select_ClosingCosts_eef77943-d85f-468f-9150-3d3130508c43'>Closing costs (as % of home purchase price):</label>
+        <select name='Closing costs' class='calcInput' id='select_ClosingCosts_eef77943-d85f-468f-9150-3d3130508c43' onchange='return ppc_select_ClosingCosts_onchange(this)' labelID='formLabel_closingCosts_eef77943-d85f-468f-9150-3d3130508c43'> 
+	        <option selected='selected' value='0.00%'>0.00%</option> 
+	        <option value='0.05%'>0.05%</option> 
+	        <option value='0.10%'>0.10%</option> 
+	        <option value='0.15%'>0.15%</option> 
+	        <option value='0.20%'>0.20%</option> 
+	        <option value='...'>...</option> 
+        </select><br />
+
+       <label id='formLabel_Homeowners_eef77943-d85f-468f-9150-3d3130508c43' controlID='select_MonthlyEscrow_eef77943-d85f-468f-9150-3d3130508c43'>Estimated annual homeowner's and<br /> mortgage insurance and property taxes<br /> (as annual % of home sales price):</label> 
+       <select name="Homeowners' insurance and property taxes" class='calcInput' id='select_MonthlyEscrow_eef77943-d85f-468f-9150-3d3130508c43' onchange='return ppc_select_MonthlyEscrow_onchange(this)' labelID='formLabel_Homeowners_eef77943-d85f-468f-9150-3d3130508c43'>
+	       <option selected='selected' value='0.00%'>0.00%</option> 
+	       <option value='0.05%'>0.05%</option> 
+	       <option value='0.10%'>0.10%</option> 
+	       <option value='0.15%'>0.15%</option> 
+	       <option value='0.20%'>0.20%</option> 
+	       <option value='...'>...</option> 
+       </select><br />
+
+       <label id='formLabel_Price_eef77943-d85f-468f-9150-3d3130508c43' controlID='text_Price_eef77943-d85f-468f-9150-3d3130508c43'>Approximate price of house:</label> 
+       <input name='Approximate price of house' class='calcInput' id='text_Price_eef77943-d85f-468f-9150-3d3130508c43' language='javascript' type='text' readonly='readonly' labelID='formLabel_Price_eef77943-d85f-468f-9150-3d3130508c43' /><br />
+        
+       <input name='button_Calculate_eef77943-d85f-468f-9150-3d3130508c43' class='calcButtonCalculate' id='button_Calculate_eef77943-d85f-468f-9150-3d3130508c43' onclick="return ppc_button_Calculate_onclick(this, 'eef77943-d85f-468f-9150-3d3130508c43')" type='button' value='Calculate' />
+       <input name='button_Reset_eef77943-d85f-468f-9150-3d3130508c43' class='calcButtonReset' id='button_Reset_eef77943-d85f-468f-9150-3d3130508c43' onclick="return ppc_button_Reset_onclick(this, 'eef77943-d85f-468f-9150-3d3130508c43')" type='button' value='Clear' />
+	   <script> 
+	   	   try{ppc_TemplateHtmlSetup('eef77943-d85f-468f-9150-3d3130508c43')}catch(e){}
+	   </script> 
+	</form>
+	
+	<p class='disclaimer'><strong>DISCLAIMER:</strong> The information found in these calculators are to be used as a guide and is deemed reliable but not guaranteed. Please schedule an appointment today to find out more information about your loan.</p>
+
 </section>
