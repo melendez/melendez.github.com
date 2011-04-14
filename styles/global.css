@@ -220,12 +220,18 @@ section.about p.third {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 label {
+	font-size: 14px;
+	color: #555;
 }
 input[type=text] {
 	padding: 5px;
 	width: 200px;
 	border: 3px solid #ccc;
 	color: #999;
+}
+input[type=text]:focus {
+	background-color: #edfdff;
+	color: #555;
 }
 /* /MORTGAGE CALCULATOR =======================================================*/
 
