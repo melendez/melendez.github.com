@@ -253,6 +253,7 @@ section.mortgagecalculator form {
 }
 section.mortgagecalculator label {
 	display: block;
+	text-align: right;
 	font-size: 14px;
 	color: #555;
 }
