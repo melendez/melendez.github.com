@@ -219,33 +219,36 @@ section.about p.third {
 /* /ABOUT =====================================================================*/
 
 /* MORTGAGE CALCULATOR ========================================================*/
-label {
+section.mortgagecalculator label {
 	font-size: 14px;
 	color: #555;
 }
-input[type=text] {
+section.mortgagecalculator input[type=text] {
 	padding: 5px;
 	width: 200px;
 	border: 3px solid #ccc;
 	background-color: #fff;
 	color: #999;
 }
-input[type=text]:focus {
+section.mortgagecalculator input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-input[type=button],
-input[type=submit] {
+section.mortgagecalculator input[type=button],
+section.mortgagecalculator input[type=submit] {
 	padding: 5px;
 	font-size: 18px;
 	border: 3px solid #ccc;
 	background-color: #fff;
 	color: #555;
 }
-input[type=button]:hover,
-input[type=submit]:hover {
+section.mortgagecalculator input[type=button]:hover,
+section.mortgagecalculator input[type=submit]:hover {
 	cursor: pointer;
 	background-color: #edfdff;
+}
+section.mortgagecalculator p.disclaimer {
+	font-size: 10px;
 }
 /* /MORTGAGE CALCULATOR =======================================================*/
 
