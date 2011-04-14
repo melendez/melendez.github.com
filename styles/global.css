@@ -251,10 +251,11 @@ section.mortgagecalculator form {
 	position: relative;
 	width: 600px;
 }
+section.mortgagecalculator br {
+	margin-bottom: 10px;
+}
 section.mortgagecalculator label {
-	height: 20px;
 	font-size: 14px;
-	border: 1px solid #aaa;
 	color: #555;
 }
 section.mortgagecalculator input[type=text] {
