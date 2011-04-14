@@ -157,6 +157,9 @@ h1,h2,h3,h4,h5,h6 {
 h3 {
 	font-size: 28px;
 }
+h6 {
+	font-size: 22px;
+}
 p {
 	margin-bottom: 15px;
 	line-height: 120%;
@@ -223,6 +226,26 @@ section.about p.third {
 }
 /* /ABOUT =====================================================================*/
 
+/* RESOURCES ================================================================== */
+section.resources img {
+	max-width: 400px;
+	height: auto;
+	padding: 4px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	-webkit-transition: background-color linear .4s;
+	-moz-transition: background-color linear .4s;
+	-o-transition: background-color linear .4s;
+	transition: background-color linear .4s;
+}
+section.resources img:hover {
+	background-color: #fff;
+}
+section.resources p {
+	margin-bottom: 30px;
+}
+/* /RESOURCES =================================================================*/
+
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator label {
 	font-size: 14px;
@@ -253,29 +276,11 @@ section.mortgagecalculator input[type=submit]:hover {
 	background-color: #edfdff;
 }
 section.mortgagecalculator p.disclaimer {
+	margin-top: 15px;
 	font-size: 10px;
+	color: #999;
 }
 /* /MORTGAGE CALCULATOR =======================================================*/
-
-/* RESOURCES ================================================================== */
-section.resources img {
-	max-width: 400px;
-	height: auto;
-	padding: 4px;
-	background-color: #eee;
-	border: 1px solid #ccc;
-	-webkit-transition: background-color linear .4s;
-	-moz-transition: background-color linear .4s;
-	-o-transition: background-color linear .4s;
-	transition: background-color linear .4s;
-}
-section.resources img:hover {
-	background-color: #fff;
-}
-section.resources p {
-	margin-bottom: 30px;
-}
-/* /RESOURCES =================================================================*/
 
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
