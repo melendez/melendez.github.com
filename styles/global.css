@@ -250,6 +250,7 @@ section.resources p {
 section.mortgagecalculator form {
 	position: relative;
 	width: 600px;
+	text-align: left;
 }
 section.mortgagecalculator label {
 	display: block;
