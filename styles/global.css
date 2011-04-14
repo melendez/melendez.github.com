@@ -233,6 +233,17 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
+input[type=button],
+input[type=submit] {
+	padding: 5px;
+	border: 3px solid #ccc;
+	background-color: #ccc;
+	color: #555;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+	background-color: #edfdff;
+}
 /* /MORTGAGE CALCULATOR =======================================================*/
 
 /* RESOURCES ================================================================== */
