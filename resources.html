@@ -14,4 +14,38 @@ title: Resources
 		<a href='http://www.houselogic.com/'><img src='images/hl.gif' alt='' /></a>
 		<p>Houselogic is... Everything you need to protect, maintain, and enhance the value of your home.</p>
 	</div>
+	
+	<div id='feed'></div>
+	
+	<script>
+		var feedcontainer = document.getElementById('feed');
+		var feedurl = 'http://www.houselogic.com/radio/rss/';
+		var feedlimit = 5;
+		var rssoutput = '<strong>Latest HouseLogic News:</strong><ul>';
+		
+		function rssfeedsetup() {
+			var feedpointer = new google.feeds.Feed(feedurl);
+			feedpointer.setNumEntries(feedlimit);
+			feedpointer.load(displayfeed);
+		}
+		
+		function displayfeed(result){
+			if(!result.error){
+				var thefeeds = result.feed.entries;
+				for(var i=0; i < thefeeds.length; i++){
+					rssoutput += "<li><a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
+					rssoutput += '</ul>';
+					feedcontainer.innerHTML = rssoutput;
+				}
+				else {
+					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
+				}
+			}
+		}
+		
+		window.onload = function()}{
+			rssfeedsetup();
+		}
+	</script>
+	
 </section>
