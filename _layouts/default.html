@@ -23,58 +23,10 @@
 	
 	
 	
-<script type='text/javascript' src='http://sitesupport.websitetonight.com/TemplateHtmlSupport/scripts/loancalculator.js?905535987'></script> 
+<script type='text/javascript' src='http://sitesupport.websitetonight.com/TemplateHtmlSupport/scripts/loancalculator.js'></script> 
  
-	<script type='text/javascript' src='http://sitesupport.websitetonight.com/TemplateHtmlSupport/scripts/propertypricecalculator2.js?905535987'></script> 
-    	<script type='text/javascript'> 
-sfHover = function() {
-var el = document.getElementById('Nav1');
-if(!/\bnav\b/.test(el.className) && el.tagName == 'UL')
-setHover(el);
-var ieNavs = document.getElementsByTagName('ul');
-for(i=0; i<ieNavs.length; i++) {
-var ul = ieNavs[i]; if(/\bnav\b/.test(ul.className))
-setHover(ul); }} 
-function setHover(nav) {
-var ieULs = nav.getElementsByTagName('ul');
-if (navigator.appVersion.substr(22,3)!='5.0') {
-for (j=0; j<ieULs.length; j++) {
-var ieMat=document.createElement('iframe');
-if(document.location.protocol == 'https:')
-ieMat.src='/http://img4.wsimg.com/wst/oa/subnav/ss_CSzKGj5-x20ar2QJ-oWxtyzWfNI.htm';
-else if(window.opera != 'undefined')
-ieMat.src='';
-else
-ieMat.src='javascript:false';
-ieMat.scrolling='no';
-ieMat.frameBorder='0';
-ieMat.style.width=ieULs[j].offsetWidth+'px';
-ieMat.style.height=ieULs[j].offsetHeight+'px';
-ieMat.style.zIndex='-1';
-ieULs[j].insertBefore(ieMat, ieULs[j].childNodes[0]);
-ieULs[j].style.zIndex='101';
-}
-var ieLIs = nav.getElementsByTagName('li');
-for (var i=0; i<ieLIs.length; i++) if (ieLIs[i]) {
-ieLIs[i].onmouseover=function() {
-if(!/\bsfhover\b/.test(this.className))
-this.className+=' sfhover';
-}
-ieLIs[i].onmouseout=function() {
-if(!this.contains(event.toElement))
-this.className=this.className.replace(' sfhover', '');
-}
-ieLIs[i].onmouseclick=function() {
-if(!this.contains(event.toElement))
-this.className=this.className.replace(' sfhover', '');
-}
-}
-}
-}
-if(window.attachEvent) window.attachEvent('onload', sfHover);
-	</script> 
-	
-	
+	<script type='text/javascript' src='http://sitesupport.websitetonight.com/TemplateHtmlSupport/scripts/propertypricecalculator2.js'></script> 
+
 	
 	
 	
