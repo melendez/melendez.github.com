@@ -296,7 +296,7 @@ section.mortgagecalculator input[type=submit] {
 	font-weight: bold;
 	font-size: 13px;
 	background-color: #eee;
-	border: 3px solid #eee;
+	border: 3px solid #ccc;
 	background-color: #eee;
 	color: #555;
 	-webkit-transition: color linear .3s;
