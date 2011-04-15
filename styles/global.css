@@ -249,6 +249,7 @@ section.resources p {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form.loan {
+	clear: none;
 	width: 350px;
 	border: 1px solid black;
 }
