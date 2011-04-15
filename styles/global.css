@@ -283,7 +283,7 @@ section.mortgagecalculator input[type=text].total {
 section.mortgagecalculator select {
 	display: block;
 	float: left;
-	width: 200px;
+	width: 250px;
 	margin-left: 10px;
 	padding: 5px;
 }
@@ -307,6 +307,9 @@ section.mortgagecalculator input[type=submit] {
 section.mortgagecalculator input[type=button]:hover,
 section.mortgagecalculator input[type=submit]:hover {
 	cursor: pointer;
+}
+section.mortgagecalculator input[type=button].calculate {
+	margin-right: 25px;
 }
 section.mortgagecalculator input[type=button].calculate:hover {
 	color: #677c26;
