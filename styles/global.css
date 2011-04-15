@@ -121,8 +121,8 @@ ul.nav li a#mortgagecalculator.selected {
 }
 ul.nav li a#contact:hover,
 ul.nav li a#contact.selected {
-	border-bottom: 2px solid #84101a;
-	color: #84101a;
+	border-bottom: 2px solid #063b79;
+	color: #063b79;
 }
 ul.subnav {
 	display: none;
