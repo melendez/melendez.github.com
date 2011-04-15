@@ -249,7 +249,7 @@ section.resources p {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator {
-	height: 700px;
+
 }
 section.mortgagecalculator form.loan {
 	float: left;
@@ -350,6 +350,7 @@ section.mortgagecalculator input[type=button].clear:hover {
 	color: #84101a;
 }
 section.mortgagecalculator p.disclaimer {
+	clear: both;
 	margin-top: 15px;
 	font-size: 10px;
 	color: #999;
