@@ -34,7 +34,7 @@ title: Resources
 				if(!result.error){
 					var thefeeds = result.feed.entries;
 					for(var i=0; i < thefeeds.length; i++){
-						rssoutput += "<li>&#187;<a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
+						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
 					}
 					rssoutput += '</ul>';
 					feedcontainer.innerHTML = rssoutput;
