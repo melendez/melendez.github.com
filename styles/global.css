@@ -248,8 +248,8 @@ section.resources p {
 /* /RESOURCES =================================================================*/
 
 /* MORTGAGE CALCULATOR ========================================================*/
-section.mortgagecalculator {
-
+section.mortgagecalculator h6 {
+	margin-bottom: 10px;
 }
 section.mortgagecalculator form.loan {
 	float: left;
