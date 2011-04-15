@@ -291,17 +291,14 @@ section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
 	float: right;
 	padding: 5px;
-	text-transform: uppercase;
-	font-family: Arial, sans-serif;
-	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
+	border: 3px solid #ccc;
 	background-color: #eee;
-	border: 2px solid #ccc;
 	color: #555;
-	-webkit-transition: background-color linear .3s, border-color linear .3s, color linear .3s;
-	-moz-transition: background-color linear .3s, border-color linear .3s, color linear .3s;
-	-o-transition: background-color linear .3s, border-color linear .3s, color linear .3s;
-	transition: background-color linear .3s, border-color linear .3s, color linear .3s;
+	-webkit-transition: background-color linear .3s;
+	-moz-transition: background-color linear .3s;
+	-o-transition: background-color linear .3s;
+	transition: background-color linear .3s;
 }
 section.mortgagecalculator input[type=button]:hover,
 section.mortgagecalculator input[type=submit]:hover {
@@ -309,14 +306,10 @@ section.mortgagecalculator input[type=submit]:hover {
 	background-color: #edfdff;
 }
 section.mortgagecalculator input[type=button].calculate:hover {
-	/*background-color: #f2ffe5;*/
-	color: #677c26;
-	border-color: #677c26;
+	background-color: #f2ffe5;
 }
 section.mortgagecalculator input[type=button].clear:hover {
-	/*background-color: #fceff0;*/
-	color: #84101a;
-	border-color: #84101a;
+	background-color: #fceff0;
 }
 section.mortgagecalculator p.disclaimer {
 	margin-top: 15px;
