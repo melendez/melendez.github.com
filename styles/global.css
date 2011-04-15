@@ -281,8 +281,8 @@ section.mortgagecalculator div.error {
 	background-color: #fffcfc;
 	color: #e0454d;
 }
-section.mortgagecalculator form.property div div.error {
-	width: 380px;
+section.mortgagecalculator form.property div.error {
+	width: 415px;
 }
 section.mortgagecalculator label {
 	display: block;
