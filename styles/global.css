@@ -275,7 +275,11 @@ section.mortgagecalculator input[type=text]:focus {
 section.mortgagecalculator select {
 	display: block;
 	float: left;
-	width: 250px;
+	width: 200px;
+	padding: 5px;
+}
+section.mortgagecalculator select option {
+
 }
 section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
