@@ -52,7 +52,7 @@ function lc_ReportError(sWay,sLimit,tBox,sHold)
 	alert(sWay+"imum value is "+sLimit);
 	*///end ORIGNAL
 	
-	//NEW
+	//NEW 4/14/11
 	document.getElementById('loanError').innerHTML = sWay+"imum value is "+sLimit;
 	$('#loanError').show();
 	//end NEW

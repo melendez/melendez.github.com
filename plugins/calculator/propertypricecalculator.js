@@ -53,7 +53,7 @@ function ppc_ReportError(sWay,sLimit,tBox,sHold)
 	alert(sWay+"imum value is "+sLimit+".");
 	*///end ORIGNAL
 	
-	//NEW
+	//NEW 4/14/11
 	document.getElementById('propertyError').innerHTML = sWay+"imum value is "+sLimit+".";
 	$('#propertyError').show();
 	//end NEW
@@ -602,6 +602,10 @@ function ppc_button_Calculate_onclick(el, calcFormId) {
  var calcForm = el.form;
  if (ppc_RequiredDataHasBeenEntered(calcForm)) 
    ppc_ComputeHowMuchHousePmtBuys(el, calcForm);  
+ 
+ //NEW
+	$('#propertyError').hide();
+//end NEW
 }
 
 // RBC Added 11/02/2005
