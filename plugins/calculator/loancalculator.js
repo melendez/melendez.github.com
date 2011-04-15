@@ -316,6 +316,10 @@ function lc_button_Reset_onclick(el, calcFormId)
 {
 	var calcForm = el.form;
 	calcForm.reset();	
+	
+	//NEW
+	$('#loanError').hide();
+	//end NEW
 }
 
 // RBC Added 11/18/2005
