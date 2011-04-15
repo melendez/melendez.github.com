@@ -252,6 +252,9 @@ section.mortgagecalculator form.loan {
 	float: left;
 	border: 1px solid black;
 }
+section.mortgagecalculator form.loan label {
+	width: 100px;
+}
 section.mortgagecalculator form.property {
 	width: 450px;
 	float: right;
@@ -305,7 +308,7 @@ section.mortgagecalculator input[type=text].total {
 section.mortgagecalculator select {
 	display: block;
 	float: left;
-	width: 250px;
+	width: 200px;
 	margin-left: 10px;
 	padding: 5px;
 }
