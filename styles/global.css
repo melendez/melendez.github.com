@@ -230,6 +230,7 @@ section.about p.third {
 /* RESOURCES ================================================================== */
 section.resources div.resources {
 	width: 400px;
+	float: left;
 }
 section.resources img {
 	max-width: 100%;
