@@ -250,6 +250,12 @@ section.resources p {
 	margin-bottom: 30px;
 	font-size: 14px;
 }
+section.resources div#feed {
+	float: right;
+}
+section.resources div#feed a {
+	color: #007799;
+}
 /* /RESOURCES =================================================================*/
 
 /* MORTGAGE CALCULATOR ========================================================*/
