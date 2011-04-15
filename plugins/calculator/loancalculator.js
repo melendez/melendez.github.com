@@ -259,7 +259,14 @@ function lc_ComputeMonthlyPayment(theButton, calcForm) {
 function lc_DataNotEntered(tBox,sMessage) {
  var bTest = false;
  if (tBox.value == "Entry required") {
+  
+//ORIGINAL
+ /*
   alert(sMessage);
+*/
+//NEW
+document.getElementById('loanError').innerHTML = sMessage;
+	
   tBox.focus();
   bTest = true;
  }
