@@ -251,6 +251,7 @@ section.resources p {
 	font-size: 14px;
 }
 section.resources div#feed {
+	width: 400px;
 	float: right;
 }
 section.resources div#feed a {
