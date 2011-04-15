@@ -258,7 +258,7 @@ section.mortgagecalculator form.loan label {
 	width: 100px;
 }
 section.mortgagecalculator form.property {
-	position: abosolute;
+	position: absolute;
 	right: 0;
 	width: 450px;
 	border: 1px solid blue;
