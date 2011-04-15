@@ -267,7 +267,7 @@ section.mortgagecalculator input[type=text] {
 	float: left;
 	margin-left: 10px;
 	padding: 5px;
-	width: 270px;
+	width: 250px;
 	border: 3px solid #ccc;
 	background-color: #fff;
 	color: #999;
@@ -291,25 +291,28 @@ section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
 	float: right;
 	padding: 5px;
-	font-size: 18px;
-	border: 3px solid #ccc;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #eee;
+	border: 2px solid #eee;
 	background-color: #eee;
 	color: #555;
-	-webkit-transition: background-color linear .3s;
-	-moz-transition: background-color linear .3s;
-	-o-transition: background-color linear .3s;
-	transition: background-color linear .3s;
+	-webkit-transition: color linear .3s;
+	-moz-transition: color linear .3s;
+	-o-transition: color linear .3s;
+	transition: color linear .3s;
 }
 section.mortgagecalculator input[type=button]:hover,
 section.mortgagecalculator input[type=submit]:hover {
 	cursor: pointer;
-	background-color: #edfdff;
 }
 section.mortgagecalculator input[type=button].calculate:hover {
-	background-color: #f2ffe5;
+	color: #677c26;
 }
 section.mortgagecalculator input[type=button].clear:hover {
-	background-color: #fceff0;
+	color: #84101a;
 }
 section.mortgagecalculator p.disclaimer {
 	margin-top: 15px;
