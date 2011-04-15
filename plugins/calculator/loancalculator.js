@@ -47,7 +47,14 @@ function lc_StripNonNumeric(sText) {
 function lc_ReportError(sWay,sLimit,tBox,sHold)
 //Displays error msgbox when min/max limits are exceeded.
 {
+	//ORGINAL
+	/*
 	alert(sWay+"imum value is "+sLimit);
+	*/
+	
+	//NEW
+	document.getElementById('loanError').innerHTML = sWay+"imum value is "+sLimit;
+	
 	tBox.value = sHold;
 	tBox.focus();
 	return true
