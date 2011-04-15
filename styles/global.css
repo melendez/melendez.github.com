@@ -250,10 +250,12 @@ section.resources p {
 section.mortgagecalculator form.loan {
 	width: 450px;
 	float: left;
+	border: 1px solid black;
 }
 section.mortgagecalculator form.property {
 	width: 450px;
-	float: left;
+	float: right;
+	border: 1px solid blue;
 }
 section.mortgagecalculator form div {
 	width: 450px;
