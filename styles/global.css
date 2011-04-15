@@ -248,7 +248,7 @@ section.resources p {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form {
-	
+	display: block;
 }
 section.mortgagecalculator form div {
 	position: relative;
