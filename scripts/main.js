@@ -15,6 +15,9 @@ $(document).ready(function(){
 			$(this).find('ul.subnav').slideUp('fast');
 		}
 	);
+	
+	//load google feeds
+	google.load('feeds','1');
 
 });
 
