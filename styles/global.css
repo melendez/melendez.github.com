@@ -228,8 +228,11 @@ section.about p.third {
 /* /ABOUT =====================================================================*/
 
 /* RESOURCES ================================================================== */
+section.resources div.resources {
+	width: 400px;
+}
 section.resources img {
-	max-width: 400px;
+	max-width: 100%;
 	height: auto;
 	padding: 4px;
 	background-color: #eee;
