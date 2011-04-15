@@ -248,16 +248,18 @@ section.resources p {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form.loan {
+	postion: absolute;
+	left: 0;
 	width: 350px;
-	float: left;
 	border: 1px solid black;
 }
 section.mortgagecalculator form.loan label {
 	width: 100px;
 }
 section.mortgagecalculator form.property {
+	position: absolute;
+	right: 0;
 	width: 450px;
-	float: right;
 	border: 1px solid blue;
 }
 section.mortgagecalculator form div {
