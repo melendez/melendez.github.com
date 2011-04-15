@@ -249,7 +249,6 @@ section.resources p {
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form div {
 	width: 500px;
-	vertical-align: sub;
 }
 section.mortgagecalculator label {
 	display: block;
@@ -272,6 +271,11 @@ section.mortgagecalculator input[type=text] {
 section.mortgagecalculator input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
+}
+section.mortgagecalculator select {
+	display: block;
+	float: left;
+	width: 250px;
 }
 section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
