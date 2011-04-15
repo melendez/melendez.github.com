@@ -34,16 +34,16 @@ title: Resources
 				var thefeeds = result.feed.entries;
 				for(var i=0; i < thefeeds.length; i++){
 					rssoutput += "<li><a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
-					rssoutput += '</ul>';
-					feedcontainer.innerHTML = rssoutput;
 				}
-				else {
-					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
-				}
+				rssoutput += '</ul>';
+				feedcontainer.innerHTML = rssoutput;
+			}
+			else {
+				document.getElementById('feed').innerHTML = '[Error fetching feeds]';
 			}
 		}
 		
-		window.onload = function()}{
+		window.onload = function(){
 			rssfeedsetup();
 		}
 	</script>
