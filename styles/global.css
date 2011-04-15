@@ -249,6 +249,8 @@ section.resources p {
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form div {
 	width: 500px;
+	height: 25px;
+	border: 1px solid red;
 }
 section.mortgagecalculator label {
 	display: block;
