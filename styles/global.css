@@ -256,7 +256,8 @@ section.resources div#feed {
 	float: right;
 }
 section.resources div#feed a {
-	color: #007799;
+	color: #4692c3;
+	margin: 3px 0;
 }
 /* /RESOURCES =================================================================*/
 
