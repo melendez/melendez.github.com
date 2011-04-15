@@ -253,9 +253,11 @@ section.mortgagecalculator form div {
 }
 section.mortgagecalculator div.error {
 	width: 500px;
+	height: auto;
+	padding: 3px;
 	text-align: center;
 	font-size: 14px;
-	border: 1px solid #84101a;
+	border: 2px solid #e0454d;
 	background-color: #fffcfc;
 	color: #84101a;
 }
