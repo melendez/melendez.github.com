@@ -273,7 +273,8 @@ section.mortgagecalculator input[type=text]:focus {
 	color: #555;
 }
 section.mortgagecalculator input[type=text].total {
-	background-color: #aaa;
+	background-color: #eee;
+	color: #9fc54e;
 }
 section.mortgagecalculator select {
 	display: block;
