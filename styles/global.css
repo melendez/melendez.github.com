@@ -228,7 +228,7 @@ section.about p.third {
 /* /ABOUT =====================================================================*/
 
 /* RESOURCES ================================================================== */
-section.resources div.resources {
+section.resources div.left {
 	width: 400px;
 	float: left;
 }
@@ -251,6 +251,10 @@ section.resources p {
 	margin-bottom: 30px;
 	font-size: 14px;
 }
+section.resources div.right {
+	width: 400px;
+	float: right;
+}
 section.resources div#feed {
 	width: 400px;
 	float: right;
@@ -259,7 +263,7 @@ section.resources div#feed ul li {
 	margin: 5px 0;
 }
 section.resources div#feed a {
-	color: #8da64d;
+	color: #677c26;
 }
 section.resources div#feed a:hover {
 	border-bottom: 1px dotted #c97a2b;

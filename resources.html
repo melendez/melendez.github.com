@@ -4,48 +4,49 @@ title: Resources
 ---
 <section class='content resources'>
 	<h3>Real Estate Resources</h3>
-	<div class='resources'>
+	<div class='left'>
 		<a href='http://www.makinghomeaffordable.gov/'><img src='images/mha.png' alt='' /></a>
 		<p>Information about refinancing and loan modification options available under the Home Affordable Refinance Program.</p>
 		
 		<a href='http://www.greatschools.org/'><img src='images/gs.png' alt='' /></a>
 		<p>Compare K-12 school ratings nationwide to find the best schools. View parent ratings, reviews and test scores and choose the right preschool, elementary, middle or high school for public or private education.</p>
-		
-		<a href='http://www.houselogic.com/'><img src='images/hl.gif' alt='' /></a>
-		<p>Houselogic is... Everything you need to protect, maintain, and enhance the value of your home.</p>
 	</div>
 	
-	<div id='feed'></div>
-	
-	<script>
-		var feedcontainer = document.getElementById('feed');
-		var feedurl = 'http://www.houselogic.com/news/rss/';
-		var feedlimit = 5;
-		var rssoutput = '<strong>Latest HouseLogic News:</strong><ul>';
+	<div class='right'>
+		<a href='http://www.houselogic.com/'><img src='images/hl.gif' alt='' /></a>
+		<p>Houselogic is... Everything you need to protect, maintain, and enhance the value of your home.</p>
 		
-		function rssfeedsetup() {
-			var feedpointer = new google.feeds.Feed(feedurl);
-			feedpointer.setNumEntries(feedlimit);
-			feedpointer.load(displayfeed);
-		}
+		<div id='feed'></div>
 		
-		function displayfeed(result){
-			if(!result.error){
-				var thefeeds = result.feed.entries;
-				for(var i=0; i < thefeeds.length; i++){
-					rssoutput += "<li>&#187;<a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
+		<script>
+			var feedcontainer = document.getElementById('feed');
+			var feedurl = 'http://www.houselogic.com/news/rss/';
+			var feedlimit = 5;
+			var rssoutput = '<strong>Latest HouseLogic News:</strong><ul>';
+			
+			function rssfeedsetup() {
+				var feedpointer = new google.feeds.Feed(feedurl);
+				feedpointer.setNumEntries(feedlimit);
+				feedpointer.load(displayfeed);
+			}
+			
+			function displayfeed(result){
+				if(!result.error){
+					var thefeeds = result.feed.entries;
+					for(var i=0; i < thefeeds.length; i++){
+						rssoutput += "<li>&#187;<a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
+					}
+					rssoutput += '</ul>';
+					feedcontainer.innerHTML = rssoutput;
 				}
-				rssoutput += '</ul>';
-				feedcontainer.innerHTML = rssoutput;
+				else {
+					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
+				}
 			}
-			else {
-				document.getElementById('feed').innerHTML = '[Error fetching feeds]';
+			
+			window.onload = function(){
+				rssfeedsetup();
 			}
-		}
-		
-		window.onload = function(){
-			rssfeedsetup();
-		}
-	</script>
-	
+		</script>
+	</div>
 </section>
