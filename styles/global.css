@@ -251,6 +251,13 @@ section.mortgagecalculator form div {
 	width: 500px;
 	height: 50px;
 }
+section.mortgagecalculator div.error {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #ffeff0;
+	color: #84101a;
+}
 section.mortgagecalculator label {
 	display: block;
 	float: left;
