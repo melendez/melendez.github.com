@@ -615,6 +615,10 @@ function ppc_button_Reset_onclick(el, calcFormId)
 	calcForm.reset();
 	ppc_ResetAnswers(calcForm);
 	ppc_InitializeDropDowns(calcForm);
+	
+	//NEW
+	$('#loanError').hide();
+	//end NEW
 }
 
 // RBC Modified 11/02/2005
