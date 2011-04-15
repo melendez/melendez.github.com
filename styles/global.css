@@ -274,7 +274,7 @@ section.mortgagecalculator input[type=text]:focus {
 }
 section.mortgagecalculator input[type=text].total {
 	background-color: #eee;
-	color: #9fc54e;
+	color: #8aa730;
 }
 section.mortgagecalculator select {
 	display: block;
@@ -285,6 +285,8 @@ section.mortgagecalculator select {
 }
 section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
+	float: left;
+	text-align: right;
 	padding: 5px;
 	font-size: 18px;
 	border: 3px solid #ccc;
