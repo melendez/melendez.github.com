@@ -258,6 +258,9 @@ section.mortgagecalculator label {
 	font-size: 14px;
 	color: #555;
 }
+section.mortgagecalculator label.small {
+	font-size: 10px;
+}
 section.mortgagecalculator input[type=text] {
 	display: block;
 	float: left;
