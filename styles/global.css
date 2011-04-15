@@ -259,10 +259,11 @@ section.resources div#feed ul li {
 	margin: 5px 0;
 }
 section.resources div#feed a {
-	color: #4692c3;
+	color: #8da64d;
 }
 section.resources div#feed a:hover {
-	border-bottom: 1px dotted #4692c3;
+	border-bottom: 1px dotted #c97a2b;
+	color: ##c97a2b;
 }
 /* /RESOURCES =================================================================*/
 
