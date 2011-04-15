@@ -258,16 +258,17 @@ section.resources div.right {
 section.resources div#feed {
 	width: 400px;
 	float: right;
+	font-size: 14px;
 }
 section.resources div#feed ul li {
 	margin: 5px 0;
 }
 section.resources div#feed a {
-	color: #677c26;
+	color: #8da64d;
 }
 section.resources div#feed a:hover {
-	border-bottom: 1px dotted #c97a2b;
-	color: #c97a2b;
+	border-bottom: 1px dotted #ff9a38;
+	color: #ff9a38;
 }
 /* /RESOURCES =================================================================*/
 
