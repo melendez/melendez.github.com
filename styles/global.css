@@ -256,12 +256,12 @@ section.mortgagecalculator form.loan label {
 	width: 100px;
 }
 section.mortgagecalculator form.property {
-	text-align: right;
+	float: right;
 	width: 450px;
 	border: 1px solid blue;
 }
 section.mortgagecalculator form div {
-	width: 450px;
+	width: 350px;
 	height: 50px;
 }
 section.mortgagecalculator div.error {
