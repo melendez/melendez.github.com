@@ -16,9 +16,6 @@ $(document).ready(function(){
 		}
 	);
 	
-	//load google feeds
-	google.load('feeds','1');
-
 });
 
 $(window).load(function(){
@@ -27,3 +24,6 @@ $(window).load(function(){
 	$('#slider').nivoSlider();
 	
 });
+
+//load google feeds
+google.load('feeds','1');
