@@ -254,7 +254,6 @@ section.mortgagecalculator {
 section.mortgagecalculator form.loan {
 	float: left;
 	width: 350px;
-	border: 1px solid black;
 }
 section.mortgagecalculator form.loan label {
 	width: 100px;
@@ -262,7 +261,6 @@ section.mortgagecalculator form.loan label {
 section.mortgagecalculator form.property {
 	float: right;
 	width: 450px;
-	border: 1px solid blue;
 }
 section.mortgagecalculator form div {
 	width: 350px;
@@ -273,7 +271,7 @@ section.mortgagecalculator form.property div {
 }
 section.mortgagecalculator div.error {
 	display: none;
-	width: 100%;
+	width: 350px;
 	height: auto;
 	margin-bottom: 10px;
 	padding: 5px;
@@ -282,6 +280,9 @@ section.mortgagecalculator div.error {
 	border: 2px solid #e0454d;
 	background-color: #fffcfc;
 	color: #e0454d;
+}
+section.mortgagecalculator form.property div div.error {
+	width: 450px;
 }
 section.mortgagecalculator label {
 	display: block;
