@@ -265,7 +265,7 @@ section.mortgagecalculator form div {
 }
 section.mortgagecalculator div.error {
 	display: none;
-	width: 475px;
+	width: 350px;
 	height: auto;
 	margin-bottom: 10px;
 	padding: 5px;
