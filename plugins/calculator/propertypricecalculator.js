@@ -617,7 +617,7 @@ function ppc_button_Reset_onclick(el, calcFormId)
 	ppc_InitializeDropDowns(calcForm);
 	
 	//NEW
-	$('#propertiesError').hide();
+	$('#propertyError').hide();
 	//end NEW
 }
 
