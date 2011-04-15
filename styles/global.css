@@ -276,10 +276,11 @@ section.mortgagecalculator select {
 	display: block;
 	float: left;
 	width: 200px;
+	margin-left: 10px;
 	padding: 5px;
 }
 section.mortgagecalculator select option {
-
+	padding: 5px;
 }
 section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
