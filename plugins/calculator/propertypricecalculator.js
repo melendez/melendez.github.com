@@ -48,7 +48,16 @@ function ppc_StripNonNumeric(sText) {
 function ppc_ReportError(sWay,sLimit,tBox,sHold)
 //Displays error msgbox when min/max limits are exceeded.
 {
+	//ORIGINAL
+	/*
 	alert(sWay+"imum value is "+sLimit+".");
+	*///end ORIGNAL
+	
+	//NEW
+	document.getElementById('propertyError').innerHTML = sWay+"imum value is "+sLimit+".";
+	$('#propertyError').show();
+	//end NEW
+	
 	tBox.value = sHold;
 	tBox.focus();
 	return true
@@ -548,7 +557,18 @@ function ppc_ComputeHowMuchHousePmtBuys(theButton, calcForm) {
 function ppc_DataNotEntered(tBox,sMessage) {
  var bTest = false;
  if (tBox.value == "Entry required") {
+
+//ORIGINAL	 
+/*
   alert(sMessage);
+ */
+//end ORIGINAL
+	
+//NEW
+	document.getElementById('propertyError').innerHTML = sMessage;
+	$('#propertyError').show();
+//end NEW
+  
   tBox.focus();
   bTest = true;
  }
