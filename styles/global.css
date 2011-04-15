@@ -259,7 +259,7 @@ section.mortgagecalculator label {
 	color: #555;
 }
 section.mortgagecalculator label.small {
-	font-size: 10px;
+	font-size: 12px;
 }
 section.mortgagecalculator input[type=text] {
 	display: block;
