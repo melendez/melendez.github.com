@@ -145,6 +145,7 @@ ul.subnav.services li a:hover {
 
 /* CONTENT ====================================================================== */
 section.content {
+	position: relative;
 	min-height: 300px;
 	margin-top: 15px;
 	padding: 10px;
@@ -248,6 +249,8 @@ section.resources p {
 
 /* MORTGAGE CALCULATOR ========================================================*/
 section.mortgagecalculator form.loan {
+	position: absolute;
+	left: 0;
 	width: 350px;
 	border: 1px solid black;
 }
@@ -255,6 +258,8 @@ section.mortgagecalculator form.loan label {
 	width: 100px;
 }
 section.mortgagecalculator form.property {
+	position: abosolute;
+	right: 0;
 	width: 450px;
 	border: 1px solid blue;
 }
