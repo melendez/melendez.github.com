@@ -203,6 +203,10 @@ function ppc_FormatAndSetText(fValue,iDecPlaces,sType,tBox) {
 			
 			 }
    
+   //NEW
+	$('#propertyError').hide();
+//end NEW
+   
    return true;
 }
  
@@ -602,10 +606,6 @@ function ppc_button_Calculate_onclick(el, calcFormId) {
  var calcForm = el.form;
  if (ppc_RequiredDataHasBeenEntered(calcForm)) 
    ppc_ComputeHowMuchHousePmtBuys(el, calcForm);  
- 
- //NEW
-	$('#propertyError').hide();
-//end NEW
 }
 
 // RBC Added 11/02/2005
