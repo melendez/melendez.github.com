@@ -290,7 +290,7 @@ section.mortgagecalculator select {
 section.mortgagecalculator input[type=button],
 section.mortgagecalculator input[type=submit] {
 	float: right;
-	padding: 10px;
+	padding: 7px;
 	text-transform: uppercase;
 	font-family: Arial, sans-serif;
 	font-weight: bold;
