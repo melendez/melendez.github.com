@@ -234,6 +234,7 @@ section.resources div.resources {
 section.resources img {
 	max-width: 100%;
 	height: auto;
+	margin-bottom: 5px;
 	padding: 4px;
 	background-color: #eee;
 	border: 1px solid #ccc;
@@ -247,6 +248,7 @@ section.resources img:hover {
 }
 section.resources p {
 	margin-bottom: 30px;
+	font-size: 14px;
 }
 /* /RESOURCES =================================================================*/
 
