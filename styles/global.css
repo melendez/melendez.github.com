@@ -306,7 +306,7 @@ section.mortgagecalculator input[type=submit]:hover {
 	background-color: #edfdff;
 }
 section.mortgagecalculator input[type=button].calculate:hover {
-	background-color: #f3f4e1;
+	background-color: #f2ffe5;
 }
 section.mortgagecalculator input[type=button].clear:hover {
 	background-color: #fceff0;
