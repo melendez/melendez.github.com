@@ -50,11 +50,12 @@ function lc_ReportError(sWay,sLimit,tBox,sHold)
 	//ORGINAL
 	/*
 	alert(sWay+"imum value is "+sLimit);
-	*/
+	*///end ORIGNAL
 	
 	//NEW
 	document.getElementById('loanError').innerHTML = sWay+"imum value is "+sLimit;
 	$('#loanError').show();
+	//end NEW
 	
 	tBox.value = sHold;
 	tBox.focus();
@@ -142,7 +143,9 @@ function lc_FormatAndSetText(fValue,iDecPlaces,sType,tBox) {
     } else {
 			tBox.value = sText;
 			}
+   //NEW 
 	$('#loanError').hide();
+	//end new
    return true;
 }
 
@@ -272,9 +275,12 @@ function lc_DataNotEntered(tBox,sMessage) {
  /*
   alert(sMessage);
 */
+//end ORIGINAL
+	 
 //NEW
 document.getElementById('loanError').innerHTML = sMessage;
 $('#loanError').show();
+//end NEW
 	
   tBox.focus();
   bTest = true;
