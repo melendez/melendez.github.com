@@ -214,6 +214,13 @@ div#slider a {
 /* /CONTENT =================================================================== */
 
 /* ABOUT ====================================================================== */
+section.about img.main {
+	width: 900px;
+	height: 300px;
+	padding: 7px;
+	border: 1px solid: #ccc;
+	background-color: #fff;
+}
 section.about h3 {
 	display: inline;
 }
