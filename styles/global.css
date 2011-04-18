@@ -242,7 +242,8 @@ section.resources div.left {
 	width: 400px;
 	float: left;
 }
-section.resources img {
+section.resources img,
+section.hudsearch img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 5px;
