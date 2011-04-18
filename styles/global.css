@@ -208,9 +208,6 @@ div#slider {
 }
 div#slider img {
 	display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 div#slider a {
     display: none;
