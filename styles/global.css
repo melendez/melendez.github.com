@@ -220,9 +220,9 @@ section.about img.main {
 	padding: 7px;
 	border: 1px solid: #ccc;
 	background-color: #fff;
-	-webkit-box-shadow: 2px 2px 5px #111;
-	-moz-box-shadow: 2px 2px 5px #111;
-	box-shadow: 2px 2px 5px #111;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	-moz-box-shadow: 2px 2px 5px #999;
+	box-shadow: 2px 2px 5px #999;
 }
 section.about h3 {
 	display: inline;
