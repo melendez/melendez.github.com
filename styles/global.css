@@ -216,6 +216,7 @@ div#slider a {
 section.about img.main {
 	width: 850px;
 	height: 300px;
+	margin-bottom: 5px;
 	padding: 7px;
 	border: 1px solid: #ccc;
 	background-color: #fff;
