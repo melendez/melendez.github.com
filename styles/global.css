@@ -198,7 +198,7 @@ div#slider {
     position: relative;
     width: auto;
     height: auto;
-    background: url('images/loading.gif') no-repeat 50% 50%;
+    background: url('images/ajax_loader.gif') no-repeat 50% 50%;
 }
 div#slider img {
 	display: none;
