@@ -11,12 +11,15 @@
   <loc>http://www.mrgpropertiesinc.com/about</loc>
 </url>
 <url>
-  <loc>http://www.mrgpropertiesinc.com/services</loc>
+  <loc>http://www.mrgpropertiesinc.com/search</loc>
 </url>
 <url>
   <loc>http://www.mrgpropertiesinc.com/resources</loc>
 </url>
 <url>
   <loc>http://www.mrgpropertiesinc.com/contact</loc>
+</url>
+<url>
+  <loc>http://www.mrgpropertiesinc.com/mortgagecalculator</loc>
 </url>
 </urlset>
