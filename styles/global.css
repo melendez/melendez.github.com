@@ -198,7 +198,13 @@ div#slider {
     position: relative;
     width: 500px;
     height: 225px;
-    background: url('images/loading.gif') no-repeat 50% 50%;
+    background: #fff url('images/loading.gif') no-repeat 50% 50%;
+	padding: 7px;
+	border: 1px solid: #ccc;
+	background-color: #fff;
+	-webkit-box-shadow: 2px 2px 5px #999;
+	-moz-box-shadow: 2px 2px 5px #999;
+	box-shadow: 2px 2px 5px #999;
 }
 div#slider img {
 	display: none;
@@ -213,8 +219,7 @@ div#slider a {
 /* /CONTENT =================================================================== */
 
 /* ABOUT ====================================================================== */
-section.about img.main,
-section.home div#slider {
+section.about img.main {
 	width: 100%;
 	height: 300px;
 	margin-bottom: 5px;
