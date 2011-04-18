@@ -213,7 +213,8 @@ div#slider a {
 /* /CONTENT =================================================================== */
 
 /* ABOUT ====================================================================== */
-section.about img.main {
+section.about img.main,
+section.home div#slider {
 	width: 100%;
 	height: 300px;
 	margin-bottom: 5px;
