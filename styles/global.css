@@ -199,18 +199,18 @@ div#slider {
     width: auto;
     height: auto;
     background: url('../images/ajax_loader.gif') no-repeat 50% 50%;
-}
-div#slider img {
-	display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 7px;
 	border: 1px solid #ccc;
 	background-color: #fff;
 	-webkit-box-shadow: 2px 2px 5px #999;
 	-moz-box-shadow: 2px 2px 5px #999;
 	box-shadow: 2px 2px 5px #999;
+}
+div#slider img {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 div#slider a {
     display: none;
