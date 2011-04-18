@@ -196,8 +196,8 @@ section.content p a:hover {
 /* NIVO SLIDER ------------------------------------------------------------------*/
 div#slider {
     position: relative;
-    width: auto;
-    height: auto;
+    width: 740p;;
+    height: 238px;
     background: url('../images/ajax_loader.gif') no-repeat 50% 50%;
     padding: 7px;
 	border: 1px solid #ccc;
