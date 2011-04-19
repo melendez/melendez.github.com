@@ -16,6 +16,9 @@ $(document).ready(function(){
 		}
 	);
 	
+	//feeds
+	$('div.feeds ul li:nth-child(5)').hide();
+	
 });
 
 $(window).load(function(){
