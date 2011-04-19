@@ -26,14 +26,16 @@ $(window).load(function(){
 	$('#slider').nivoSlider();
 	
 	
-	//hide last 5 links
-	$('a.more').click(function(){
-		//$('div#feed ul li').css('visibility', 'visible');
-		alert('asdf');
-	});
+	
 
 	
 });
 
 //load google feeds
 google.load('feeds','1');
+
+//hide last 5 links
+$('a.more').click(function(){
+	//$('div#feed ul li').css('visibility', 'visible');
+	alert('asdf');
+});
