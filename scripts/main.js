@@ -17,7 +17,7 @@ $(document).ready(function(){
 	);
 	
 	//feeds
-	//$('div#feed ul li:nth-child(5)').hide();
+	//$('div.feeds ul>4').hide()
 	
 });
 
