@@ -16,7 +16,8 @@ $(document).ready(function(){
 		}
 	);
 	
-
+	// load google feeds
+	google.load('feeds','1');
 	
 });
 
@@ -25,15 +26,14 @@ $(window).load(function(){
 	// initialize nivo slider
 	$('#slider').nivoSlider();
 	
-	// load google feeds
-	google.load('feeds','1');
+
 
 
 	// initialze google feed
 	rssfeedsetup();
 	
 	// feeds
-	$('div#feed ul li').hide();
+	//$('div#feed ul li').hide();
 	
 });
 
