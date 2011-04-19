@@ -21,6 +21,9 @@ $(document).ready(function(){
 		$('div#feed ul li').css('visibility', 'visible');
 	});
 	
+	//load google feeds
+	google.load('feeds','1');
+	
 });
 
 $(window).load(function(){
@@ -31,8 +34,6 @@ $(window).load(function(){
 	
 });
 
-//load google feeds
-google.load('feeds','1');
 
 var feedcontainer = document.getElementById('feed');
 var feedurl = 'http://www.houselogic.com/news/rss/';
