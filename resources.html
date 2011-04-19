@@ -36,9 +36,9 @@ title: Resources
 					for(var i=0; i < thefeeds.length; i++){
 						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a></li>";
 					}
-					rssoutput += '</ul>';
+					rssoutput += "</ul><a class='more' href=''>more</a>";
 					feedcontainer.innerHTML = rssoutput;
-					//$('div#feed ul li:gt(5)').hide();
+					$('div#feed ul li:gt(5)').hide();
 				}
 				else {
 					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
