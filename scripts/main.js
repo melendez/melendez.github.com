@@ -16,6 +16,9 @@ $(document).ready(function(){
 		}
 	);
 	
+	//hide last 5 links
+	$('div#feed ul li:gt(5)').hide();
+	
 });
 
 $(window).load(function(){
