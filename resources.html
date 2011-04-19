@@ -38,7 +38,7 @@ title: Resources
 					}
 					rssoutput += '</ul>';
 					feedcontainer.innerHTML = rssoutput;
-					$('div#feed ul li').hide();
+					$('div#feed ul li:gt(5)').hide();
 				}
 				else {
 					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
