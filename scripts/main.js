@@ -16,8 +16,7 @@ $(document).ready(function(){
 		}
 	);
 	
-	//feeds
-	$('div#feed ul li:nth-child(5)').hide();
+
 	
 });
 
@@ -25,6 +24,9 @@ $(window).load(function(){
 	
 	// initialize nivo slider
 	$('#slider').nivoSlider();
+	
+	//feeds
+	$('div#feed ul li:nth-child(5)').hide();
 	
 });
 
