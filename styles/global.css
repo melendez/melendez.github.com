@@ -10,7 +10,7 @@
 }
 
 body {
-	text-shadow: 0 1px 0 #fff;
+	text-shadow: 0 -1px 0 #000;
 	font-family: Helvetica;
 	font-size: 18px;
 	background: #ddd url('../images/bg-texture-repeat.png') repeat 0 0;
@@ -56,9 +56,7 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background-color: #1e1711;;
-	border-top: 2px solid #eee;
-	border-bottom: 2px solid #ccc;
+	background-color: #1e1711;
 }
 ul.nav li {
 	display: inline;
@@ -69,7 +67,7 @@ ul.nav li a {
 	padding: 0 20px;
 	line-height: 40px;
 	text-decoration: none;
-	color: #666;
+	color: #fff;
 	border-bottom: 2px solid #ccc;
 	-webkit-transition: background-color linear .2s, color linear .3s;
 	-moz-transition: background-color linear .2s, color linear .3s;
