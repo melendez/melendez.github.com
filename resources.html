@@ -28,6 +28,11 @@ title: Resources
 				var feedpointer = new google.feeds.Feed(feedurl);
 				feedpointer.setNumEntries(feedlimit);
 				feedpointer.load(displayfeed);
+				
+				//hide last 5 links
+				$('a.more').click(function(){
+					alert('sdf');
+				});
 			}
 			
 			function displayfeed(result){
@@ -47,11 +52,6 @@ title: Resources
 			
 			window.onload = function(){
 				rssfeedsetup();
-				
-				//hide last 5 links
-				$('a.more').click(function(){
-					alert('sdf');
-				});
 			}
 			
 
