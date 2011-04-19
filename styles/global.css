@@ -18,7 +18,6 @@ body {
 }
 div#wrap {
 	margin: 0 auto;
-	width: 900px;
 }
 /* GENERAL ===================================================================== */
 
@@ -147,6 +146,7 @@ ul.subnav.services li a:hover {
 /* CONTENT ====================================================================== */
 section.content {
 	position: relative;
+	width: 900px;
 	min-height: 300px;
 	margin-top: 15px;
 	padding: 10px;
