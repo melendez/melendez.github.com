@@ -20,7 +20,6 @@ $(document).ready(function(){
 	$('a.more').click(function(){
 		//$('div#feed ul li').css('visibility', 'visible');
 		alert('asdf');
-		return false;
 	});
 	
 });
