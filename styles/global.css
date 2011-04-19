@@ -56,14 +56,9 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background-color: #eee;
+	background-color: #1e1711;;
 	border-top: 2px solid #eee;
 	border-bottom: 2px solid #ccc;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-o-border-radius: 10px;
-	border-radius: 10px;
-	behavior: url('plugins/PIE/PIE.htc');
 }
 ul.nav li {
 	display: inline;
