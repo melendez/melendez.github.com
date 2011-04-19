@@ -258,7 +258,8 @@ section.hudsearch img {
 	-o-transition: background-color linear .4s;
 	transition: background-color linear .4s;
 }
-section.resources img:hover {
+section.resources img:hover,
+section.hudsearch img:hover {
 	background-color: #fff;
 }
 section.resources p {
