@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	//hide last 5 links
 	$('a.more').click(function(){
-		$('div#feed ul li:gt(5)').css('visibility', 'visible').slideDown(fast);
+		$('div#feed ul li').css('visibility', 'visible').slideDown(fast);
 	});
 	
 });
