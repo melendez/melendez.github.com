@@ -10,6 +10,7 @@
 }
 
 body {
+	margin: 0 auto;
 	text-shadow: 0 -1px 0 #000;
 	font-family: Helvetica;
 	font-size: 18px;
