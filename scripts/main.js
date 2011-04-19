@@ -27,9 +27,7 @@ $(window).load(function(){
 	
 	// initialize nivo slider
 	$('#slider').nivoSlider();
-	
-	
-	rssfeedsetup();
+
 	
 });
 
@@ -63,5 +61,5 @@ function displayfeed(result){
 }
 
 window.onload = function(){
-	
+	rssfeedsetup();
 }
