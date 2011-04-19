@@ -16,11 +16,7 @@ $(document).ready(function(){
 		}
 	);
 	
-	//hide last 5 links
-	$('a.more').click(function(){
-		//$('div#feed ul li').css('visibility', 'visible');
-		alert('asdf');
-	});
+
 	
 });
 
@@ -28,6 +24,13 @@ $(window).load(function(){
 	
 	// initialize nivo slider
 	$('#slider').nivoSlider();
+	
+	
+	//hide last 5 links
+	$('a.more').click(function(){
+		//$('div#feed ul li').css('visibility', 'visible');
+		alert('asdf');
+	});
 
 	
 });
