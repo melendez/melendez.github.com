@@ -74,10 +74,11 @@ ul.nav li {
 ul.nav li a {
 	display: block;
 	float: left;
-	padding: 0 20px;
+	padding: 10 20px;
 	line-height: 40px;
 	text-decoration: none;
 	color: #fff;
+	border: 1px solid #000;
 	-webkit-transition: background-color linear .2s, color linear .3s;
 	-moz-transition: background-color linear .2s, color linear .3s;
 	-o-transition: background-color linear .2s, color linear .3s;
@@ -86,20 +87,6 @@ ul.nav li a {
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
   color: #fff;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    color-stop(1, rgb(0,0,0)),
-    color-stop(0.5, rgb(110,40,49)),
-    color-stop(0.85, rgb(20,13,10))
-);
-background-image: -moz-linear-gradient(
-    center bottom,
-    rgb(0,0,0) 100%,
-    rgb(110,40,49) 50%,
-    rgb(20,13,10) 85%
-);
 }
 ul.nav  ul {
   display: none;
