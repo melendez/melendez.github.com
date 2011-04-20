@@ -114,9 +114,21 @@ ul.nav li:hover > ul li a {
   background: #86434c;
 }
 ul.nav li:hover > ul li a:hover {
-  color: #120000;
-  text-decoration: none;
-  text-shadow: none;
+	background: #492425 url('../images/gradient.png') repeat-x 0 -40px;
+	color: #444;
+	border-top: solid 1px #f8f8f8;
+
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+	
+  	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url('plugins/PIE/PIE.htc');
 }
 
 /*
