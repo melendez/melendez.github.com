@@ -47,7 +47,6 @@ ul.nav {
 	font-weight: bold;
 	font-size: 13px;
 	background-color: #663d2a;
-	border-top: 2px solid #000;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -70,12 +69,9 @@ ul.nav li a {
 	-o-transition: background-color linear .2s, color linear .3s;
 	transition: background-color linear .2s, color linear .3s;
 }
-ul.nav li a:hover {
-	background-color: #663d2a;
-	border-top: 2px solid #fff;
-}
+ul.nav li a:hover,
 ul.nav li a.active {
-	background-color: #000;
+	background-color: #352016;
 }
 /*
 ul.nav li a#home:hover,
