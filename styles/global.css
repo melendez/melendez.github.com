@@ -189,17 +189,16 @@ div#slider {
     position: relative;
     width: 880px;
     height: 238px;
-    background: url('../images/ajax_loader.gif') no-repeat 50% 50%;
+    background: #fff url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 1px solid #ccc;
 	-webkit-box-shadow: 2px 2px 5px #999;
 	-moz-box-shadow: 2px 2px 5px #999;
-	box-shadow: 2px 2px 5px #999;
+	box-shadow: 0 0 5px #555;
 }
 div#slider img {
 	min-width: 880px;
 	display: none;
 	padding: 7px;
-	background-color: #fff;
 }
 div#slider a {
     display: none;
