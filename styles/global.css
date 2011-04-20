@@ -56,10 +56,10 @@ ul.nav {
 }
 ul.nav li {
 	display: inline;
-	float: left;
 }
 ul.nav li a {
 	display: block;
+	float: left;
 	padding: 0 20px;
 	line-height: 40px;
 	text-decoration: none;
@@ -72,6 +72,15 @@ ul.nav li a {
 ul.nav li a:hover,
 ul.nav li a.active {
 	background-color: #352016;
+}
+ul.nav li:hover > ul {
+  position: absolute;
+  display: block;
+  width: 900px;
+  height: 45px;
+  position: absolute;
+  margin: 40px 0 0 0;
+  background: #aa0000;
 }
 /*
 ul.nav li a#home:hover,
