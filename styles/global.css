@@ -47,9 +47,8 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background-color: #eee;
-	border-top: 2px solid #eee;
-	border-bottom: 2px solid #ccc;
+	background-color: #975e43;
+	border-top: 2px solid #000;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-o-border-radius: 10px;
@@ -208,7 +207,7 @@ div#slider a {
 
 /* ABOUT ====================================================================== */
 section.about img.main {
-	width: 100%;
+	width: 880px;
 	height: 300px;
 	margin-bottom: 5px;
 	padding: 7px;
