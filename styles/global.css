@@ -49,7 +49,7 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background: #7d7d7d url('../images/gradient.png') repeat-x 0 -110px;
+	background: #89484b url('../images/gradient.png') repeat-x 0 -110px;
 
  -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -66,8 +66,9 @@ ul.nav li a {
 	margin: 5px;
 	padding: 0 10px;
 	line-height: 40px;
+	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 	text-decoration: none;
-	color: #fff;
+	color: #e7e5e5;
 	-webkit-transition: background-color linear .2s, color linear .3s;
 	-moz-transition: background-color linear .2s, color linear .3s;
 	-o-transition: background-color linear .2s, color linear .3s;
@@ -75,8 +76,8 @@ ul.nav li a {
 }
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
-  color: #fff;
-  background: #000;
+background: #000;
+	color: #fff;
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
