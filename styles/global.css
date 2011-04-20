@@ -410,6 +410,7 @@ footer.main {
 	width: 900px;
 	height: 64px;
 	margin: 25px auto;
+	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-footerbg.png') repeat-x 0 0;
 }
 footer.main p.copyright {
 	position: absolute;
