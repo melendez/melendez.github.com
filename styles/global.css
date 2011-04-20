@@ -86,17 +86,19 @@ ul.nav li a {
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
   color: #fff;
-background-image: -webkit-gradient(
+  background-image: -webkit-gradient(
     linear,
     left bottom,
     left top,
-    color-stop(0.07, rgb(158,85,51)),
-    color-stop(0.78, rgb(97,56,43))
+    color-stop(1, rgb(0,0,0)),
+    color-stop(0.5, rgb(110,40,49)),
+    color-stop(0.85, rgb(20,13,10))
 );
 background-image: -moz-linear-gradient(
     center bottom,
-    rgb(158,85,51) 7%,
-    rgb(97,56,43) 78%
+    rgb(0,0,0) 100%,
+    rgb(110,40,49) 50%,
+    rgb(20,13,10) 85%
 );
 }
 ul.nav  ul {
