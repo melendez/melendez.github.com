@@ -93,6 +93,11 @@ ul.nav li:hover > ul li a {
   padding: 0 30px 0 0;
   background: #aa0000 url(../img/menu-child.png) repeat-x;
 }
+ul.nav li:hover > ul li a:hover {
+  color: #120000;
+  text-decoration: none;
+  text-shadow: none;
+}
 
 /*
 ul.nav li a#home:hover,
