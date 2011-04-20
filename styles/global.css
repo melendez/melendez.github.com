@@ -85,11 +85,12 @@ ul.nav  ul {
 ul.nav li:hover > ul {
   position: absolute;
   display: block;
-  width: 920px;
-  height: 45px;
-  position: absolute;
-  margin: 40px 0 0 0;
+  width: 960px;
   background: #86434c;
+   -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
 }
 
 ul.nav li:hover > ul li a {
