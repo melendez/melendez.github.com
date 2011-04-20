@@ -17,7 +17,7 @@ body {
 }
 div#wrap {
 	margin: 0 auto;
-	width: 900px;
+	width: 960px;
 }
 /* GENERAL ===================================================================== */
 
@@ -37,13 +37,13 @@ img.logo {
 
 /* NAVIGATION ================================================================== */
 nav.main {
-	width: 900px;
+	width: 960px;
 	height: 40px;
 	clear: both;
 }
 ul.nav {
 	float: left;
-	width: 900px;
+	width: 960px;
 	padding-left: 10px;
 	text-transform: uppercase;
 	font-family: Arial, sans-serif;
@@ -415,7 +415,7 @@ section.contact div.contact_info {
 footer.main {
 	clear: both;
 	position: relative;
-	width: 900px;
+	width: 960px;
 	height: 119px;
 	margin: 0 auto;
 	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-footerbg.png') repeat-x 0 0;
