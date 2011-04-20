@@ -88,7 +88,7 @@ ul.nav a.selected, ul.nav li:hover > a  {
 	border-radius: 5px;
 	behavior: url('plugins/PIE/PIE.htc');
 }
-ul.nav  ul {
+ul.nav ul {
   display: none;
 }
 
@@ -99,7 +99,7 @@ ul.nav li:hover > ul {
   width: 960px;
   height: 45px;
   margin: 40px 0 0 0;
-  background: #86434c;
+	background: #72433b url('../images/gradient.png') repeat-x 0 -110px;
    -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-bottomleft: 10px;
