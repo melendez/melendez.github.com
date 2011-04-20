@@ -63,7 +63,6 @@ ul.nav li a {
 	line-height: 40px;
 	text-decoration: none;
 	color: #fff;
-	border-bottom: 2px solid #ccc;
 	-webkit-transition: background-color linear .2s, color linear .3s;
 	-moz-transition: background-color linear .2s, color linear .3s;
 	-o-transition: background-color linear .2s, color linear .3s;
@@ -115,7 +114,8 @@ ul.subnav {
 	float: left;
 	position: absolute;
 	z-index: 10000;
-	background-color: #eee;
+	background-color: #663d2a;
+	color: #fff;
 }
 ul.subnav li {
 	
@@ -123,9 +123,9 @@ ul.subnav li {
 ul.subnav li a {
 	float: left;
 }
-ul.subnav.services li a:hover {
-	color: #96ad53;
-	border-bottom: 2px solid #96ad53;
+ul.subnav.services li a:hover,
+ul.subnav.services li a:active {
+	background-color: #352016;
 }
 /* /NAVIGATION ================================================================== */
 
