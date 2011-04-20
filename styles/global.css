@@ -13,7 +13,7 @@ body {
 	text-shadow: 0 1px 0 #fff;
 	font-family: Helvetica;
 	font-size: 18px;
-	background: #ddd url('../images/bg.jpg') repeat 0 0;
+	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-mainbg.jpg') repeat 0 0;
 	color: #444751;
 }
 div#wrap {
@@ -29,7 +29,7 @@ header.main {
 	position: relative;
 	height: 180px;
 	margin: 25px 0 10px 0;
-	background-color: rgb(0,0,0,.5);
+	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-headerbg.png') repeat-x 0 0;
 }
 img.logo {
 	width: 473px;
@@ -141,7 +141,6 @@ section.content {
 	min-height: 300px;
 	margin-top: 15px;
 	padding: 10px;
-	background: #fff;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: Aller, Helvetica, Aria, sans-serif;
