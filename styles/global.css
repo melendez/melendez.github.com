@@ -193,7 +193,7 @@ div#slider {
 	border: 1px solid #ccc;
 	-webkit-box-shadow: 2px 2px 5px #999;
 	-moz-box-shadow: 2px 2px 5px #999;
-	box-shadow: 0 0 5px #555;
+	box-shadow: 0 0 10px #555;
 }
 div#slider img {
 	min-width: 880px;
