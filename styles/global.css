@@ -47,7 +47,7 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background-color: #975e43;
+	background-color: #663d2a;
 	border-top: 2px solid #000;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -73,12 +73,12 @@ ul.nav li a {
 }
 ul.nav li a:hover {
 	background-color: #663d2a;
-	border-bottom: 2px solid #ccc;
-	color: #999;
+	border-top: 2px solid #fff;
 }
 ul.nav li a.active {
 	background-color: #000;
 }
+/*
 ul.nav li a#home:hover,
 ul.nav li a#home.selected {
 	border-bottom: 2px solid #063b79;
@@ -114,6 +114,7 @@ ul.nav li a#contact.selected {
 	border-bottom: 2px solid #2b0d46;
 	color: #2b0d46;
 }
+*/
 ul.subnav {
 	display: none;
 	float: left;
