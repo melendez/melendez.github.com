@@ -98,7 +98,7 @@ ul.nav li:hover > ul {
   display: block;
   width: 960px;
   height: 45px;
-  margin: 80px 0 0 0;
+  margin: 50px 0 0 0;
 	background: #72433b url('../images/gradient.png') repeat-x 0 -110px;
    -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
