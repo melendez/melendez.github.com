@@ -29,7 +29,7 @@ header.main {
 	position: relative;
 	height: 180px;
 	margin: 25px 0 10px 0;
-	background: #d1c9af;
+	background: rgb(0,0,0,.5);
 }
 img.logo {
 	width: 473px;
