@@ -53,17 +53,14 @@ background-image: -webkit-gradient(
     linear,
     left bottom,
     left top,
-    color-stop(0, rgb(102,61,42)),
-    color-stop(0.5, rgb(135,68,76)),
-    color-stop(1, rgb(102,61,42))
+    color-stop(0.07, rgb(158,85,51)),
+    color-stop(0.78, rgb(97,56,43))
 );
 background-image: -moz-linear-gradient(
     center bottom,
-    rgb(102,61,42) 0%,
-    rgb(135,68,76) 50%,
-    rgb(102,61,42) 100%
+    rgb(158,85,51) 7%,
+    rgb(97,56,43) 78%
 );
-
 
  -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -89,11 +86,21 @@ ul.nav li a {
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
   color: #fff;
-  background: #86434c;
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.07, rgb(158,85,51)),
+    color-stop(0.78, rgb(97,56,43))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(158,85,51) 7%,
+    rgb(97,56,43) 78%
+);
 }
 ul.nav  ul {
   display: none;
-  z-index: 100000;
 }
 
 /* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
@@ -166,7 +173,7 @@ ul.nav li a#contact.selected {
 section.content {
 	position: relative;
 	min-height: 300px;
-	padding: 10px;
+	padding: 50px 10px 10px 10px;
 	background-color: #e8e1cc;
 }
 h1,h2,h3,h4,h5,h6 {
