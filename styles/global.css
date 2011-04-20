@@ -10,7 +10,6 @@
 }
 
 body {
-	font-family: Helvetica;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 18px;
 	background: #f0ebd9 url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-mainbg.jpg') repeat-x 0 0;
@@ -142,7 +141,6 @@ section.content {
 	background-color: #e8e1cc;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: Aller, Helvetica, Aria, sans-serif;
 	font-size: 36px;
 	margin: 5px 0;
 }
