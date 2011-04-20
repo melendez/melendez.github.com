@@ -408,14 +408,14 @@ footer.main {
 	clear: both;
 	position: relative;
 	width: 900px;
-	height: 64px;
-	margin: 25px auto;
+	height: 119px;
+	margin: 0 auto;
 	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-footerbg.png') repeat-x 0 0;
 }
 footer.main p.copyright {
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: 35px;
 	font-size: 12px;
 	color: #999;
 }
