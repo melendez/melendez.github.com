@@ -76,7 +76,7 @@ ul.nav li a {
 }
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
-	background: #666 url('../images/gradient.png') repeat-x 0 -40px;
+	background: #b5797b url('../images/gradient.png') repeat-x 0 -40px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 
