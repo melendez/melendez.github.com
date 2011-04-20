@@ -82,6 +82,25 @@ ul.nav li:hover > ul {
   margin: 40px 0 0 0;
   background: #aa0000;
 }
+52
+/* THE SUBMENU LIST HIDDEN BY DEFAULT */
+53
+ul#nav  ul {
+
+  display: none;
+
+}
+/* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
+ul#nav li:hover > ul {
+  position: absolute;
+  display: block;
+  width: 920px;
+  height: 45px;
+  position: absolute;
+  margin: 40px 0 0 0;
+  background: #aa0000 url(../img/menu-child.png) repeat-x; 
+}
+
 ul.nav li:hover > ul li a {
   float: left;
   font: bold 1.1em arial,verdana,tahoma,sans-serif;
@@ -136,24 +155,6 @@ ul.nav li a#contact.selected {
 	color: #2b0d46;
 }
 */
-ul.subnav {
-	display: none;
-	float: left;
-	position: absolute;
-	z-index: 10000;
-	background-color: #663d2a;
-	color: #fff;
-}
-ul.subnav li {
-	
-}
-ul.subnav li a {
-	float: left;
-}
-ul.subnav.services li a:hover,
-ul.subnav.services li a:active {
-	background-color: #352016;
-}
 /* /NAVIGATION ================================================================== */
 
 /* CONTENT ====================================================================== */
