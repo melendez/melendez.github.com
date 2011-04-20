@@ -74,11 +74,10 @@ ul.nav li {
 ul.nav li a {
 	display: block;
 	float: left;
-	padding: 20px;
+	padding: 0 30px;
 	line-height: 40px;
 	text-decoration: none;
 	color: #fff;
-	border: 1px solid #000;
 	-webkit-transition: background-color linear .2s, color linear .3s;
 	-moz-transition: background-color linear .2s, color linear .3s;
 	-o-transition: background-color linear .2s, color linear .3s;
