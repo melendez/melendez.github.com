@@ -34,15 +34,6 @@ img.logo {
 	width: 473px;
 	height: 180px;
 }
-span.description {
-	float: right;
-	position: absolute;
-	bottom: 15px;
-	left: 300px;
-	font-family: Arial, sans-serif;
-	font-style: italic;
-	color: #aaa;
-}
 /* /HEADER ===================================================================== */
 
 /* NAVIGATION ================================================================== */
