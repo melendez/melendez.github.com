@@ -76,8 +76,16 @@ ul.nav li a {
 }
 	/* APPLIES THE ACTIVE STATE */
 ul.nav .current a, ul.nav li:hover > a  {
-background: #000;
-	color: #fff;
+	background: #666 url('../images/gradient.png') repeat-x 0 -40px;
+	color: #444;
+	border-top: solid 1px #f8f8f8;
+
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+	
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
