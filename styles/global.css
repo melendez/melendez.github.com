@@ -85,7 +85,7 @@ ul.nav  ul {
 ul.nav li:hover > ul {
   position: absolute;
   display: block;
-  width: 920px;
+  width: 960px;
   height: 45px;
   margin: 40px 0 0 0;
   background: #86434c;
