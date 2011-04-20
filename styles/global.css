@@ -181,13 +181,10 @@ section.content p a:hover {
 /* NIVO SLIDER ------------------------------------------------------------------*/
 div#slider {
     position: relative;
-    width: 880px;
+    width: 100%;
     height: 238px;
     background: #fff url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 1px solid #ccc;
-	-webkit-box-shadow: 2px 2px 5px #999;
-	-moz-box-shadow: 2px 2px 5px #999;
-	box-shadow: 0 0 10px #555;
 }
 div#slider img {
 	min-width: 880px;
@@ -208,9 +205,6 @@ section.about img.main {
 	padding: 7px;
 	border: 1px solid #ccc;
 	background-color: #fff;
-	-webkit-box-shadow: 2px 2px 5px #999;
-	-moz-box-shadow: 2px 2px 5px #999;
-	box-shadow: 2px 2px 5px #999;
 }
 section.about h3 {
 	display: inline;
