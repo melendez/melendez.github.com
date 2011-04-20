@@ -80,6 +80,7 @@ ul.nav .current a, ul#nav li:hover > a  {
 }
 ul.nav  ul {
   display: none;
+  z-index: 100000;
 }
 
 /* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
