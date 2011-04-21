@@ -126,7 +126,6 @@ nav ul#nav li:hover > ul li a:hover {
 
 /* CONTENT ====================================================================== */
 section.content {
-	min-height: 500px;
 	padding: 20px 10px 10px 10px;
 	background-color: #e8e1cc;
 }
@@ -186,6 +185,7 @@ div#slider {
 div#slider img {
 	display: none;
 }
+/* direction nav links */
 .nivo-directionNav a {
 	display:block;
 	width:30px;
@@ -201,7 +201,31 @@ a.nivo-nextNav {
 a.nivo-prevNav {
 	left:15px;
 }
+/* caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
 /* /NIVO SLIDER ----------------------------------------------------------------*/
+div.clear {
+	clear: both;
+}
 /* /CONTENT =================================================================== */
 
 /* ABOUT ====================================================================== */
