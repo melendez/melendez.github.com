@@ -466,14 +466,14 @@ footer.main p.copyright {
 	color: #ada78e;
 }
 footer.main p.copyright a {
-	color: #777;
+	color: #999;
 }
 footer.main p.copyright a:hover {
 	text-decoration: underline;
 }
 footer.main p.copyright span.design {
 	display: block;
-	font-size: 9px;
+	font-size: 8px;
 }
 footer.main div.creditation {
 	position: absolute;
