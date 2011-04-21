@@ -472,7 +472,7 @@ footer.main p.copyright a:hover {
 }
 footer.main div.creditation {
 	position: absolute;
-	right: 0;
+	right: 10px;
 	bottom: 0;
 }
 footer.main div.creditation img {
