@@ -162,22 +162,16 @@ p.third {
 	font-size: 18px;
 }
 section.content p a {
-	padding: 2px 4px;
 	text-shadow: none;
-	color: #444751;
-	background-color: #dce6ea;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
-	behavior: url('plugins/PIE/PIE.htc');
+	color: #8da64d;
 	-webkit-transition: background-color linear .3s;
 	-moz-transition: background-color linear .3s;
 	-o-transition: background-color linear .3s;
 	transition: background-color linear .3s;
 }
 section.content p a:hover {
-	background-color: #eaf7ff;
+	border-bottom: 1px dotted #c97a2b;
+	color: #c97a2b;
 }
 /* NIVO SLIDER ------------------------------------------------------------------*/
 div#slider {
