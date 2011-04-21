@@ -111,6 +111,7 @@ ul.nav li:hover > ul li a {
   float: left;
   color: #fff;
   padding: 0 20px;
+  margin: 5px;
 }
 ul.nav li:hover > ul li a:hover {
 	background: #492425 url('../images/gradient.png') repeat-x 0 -40px;
@@ -171,7 +172,7 @@ ul.nav li a#contact.selected {
 /* CONTENT ====================================================================== */
 section.content {
 	min-height: 300px;
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
 	background-color: #e8e1cc;
 }
 h1,h2,h3,h4,h5,h6 {
