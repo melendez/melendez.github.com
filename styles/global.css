@@ -90,6 +90,7 @@ ul.nav a.selected, ul.nav li:hover > a  {
 }
 ul.nav ul {
   display: none;
+  z-index: 10000;
 }
 
 /* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
@@ -170,7 +171,7 @@ ul.nav li a#contact.selected {
 /* CONTENT ====================================================================== */
 section.content {
 	min-height: 300px;
-	padding: 50px 10px 10px 10px;
+	padding: 10px;
 	background-color: #e8e1cc;
 }
 h1,h2,h3,h4,h5,h6 {
