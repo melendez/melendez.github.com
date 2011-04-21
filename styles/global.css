@@ -459,10 +459,10 @@ footer.main {
 }
 footer.main p.copyright {
 	position: absolute;
-	left: 0;
-	bottom: 35px;
+	left: 10px;
+	bottom: 20px;
 	font-size: 12px;
-	color: #999;
+	color: #777051;
 }
 footer.main p.copyright a {
 	color: #777;
