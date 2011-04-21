@@ -28,7 +28,7 @@ div#wrap {
 header {
 	position: relative;
 	height: 180px;
-	background: url('../images/bg_header.jpg') repeat-x 0 0;
+	background: url('../images/bg_header.png') repeat-x 0 0;
 }
 header img.logo {
 	width: 473px;
