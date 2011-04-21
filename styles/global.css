@@ -138,14 +138,14 @@ section.content {
 	behavior: url('plugins/PIE/PIE.htc');
 }
 h1,h2,h3,h4,h5,h6 {
-	font-size: 36px;
 	margin: 5px 0;
 }
-h1, h2 {
+h1 {
+	font-size: 32px;
 	font-weight: bold;
 }
 h2 {
-	font-size: 30px;
+	font-size: 24px;
 }
 h3 {
 	font-size: 28px;
