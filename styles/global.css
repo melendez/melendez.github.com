@@ -175,13 +175,13 @@ section.content p a:hover {
 /* NIVO SLIDER ------------------------------------------------------------------*/
 div#slider {
     position: relative;
-    width: 940px;
+    width: 933px;
     height: 450px;
-	max-width: 940px;
+	max-width: 933px;
     max-height: 450px;
     overflow: hidden;
     background: #e8e1cc url('../images/ajax_loader.gif') no-repeat 50% 50%;
-	border: 1px solid #ccc;
+	border: 7px solid #eee;
 }
 div#slider img {
 	display: none;
