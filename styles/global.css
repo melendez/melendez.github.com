@@ -99,7 +99,7 @@ ul.nav li:hover > ul {
   width: 960px;
   height: 45px;
   margin: 45px 0 0 0;
-	background: #422521 url('../images/gradient.png') repeat-x 0 -110px;
+	background: #422521;
    -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-bottomleft: 10px;
