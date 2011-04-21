@@ -220,9 +220,9 @@ section.content p a:hover {
 div#slider {
     position: relative;
     width: 940px;
-    height: 350px;
+    height: 450px;
 	max-width: 940px;
-    max-height: 250px;
+    max-height: 450px;
     background: #fff url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 1px solid #ccc;
 	overflow: hidden;
