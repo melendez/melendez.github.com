@@ -12,7 +12,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 18px;
-	background: #f0ebd9 url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-mainbg.jpg') repeat-x 0 0;
+	background: #f0ebd9 url('../images/bg.jpg') repeat-x 0 0;
 	color: #5c5532;
 }
 div#wrap {
@@ -24,24 +24,24 @@ div#wrap {
 /* GENERAL ===================================================================== */
 
 /* HEADER ====================================================================== */
-header.main {
+header {
 	position: relative;
 	height: 180px;
-	background: url('http://mrg.net63.net/wp-content/themes/Real%20Estate%20v1.3/skins/1-default/i-headerbg.png') repeat-x 0 0;
+	background: url('../images/bg_header.jpg') repeat-x 0 0;
 }
-img.logo {
+header img.logo {
 	width: 473px;
 	height: 180px;
 }
 /* /HEADER ===================================================================== */
 
 /* NAVIGATION ================================================================== */
-nav.main {
+nav {
 	width: 960px;
 	height: 40px;
 	clear: both;
 }
-ul.nav {
+nav ul#nav {
 	float: left;
 	width: 950px;
 	padding-left: 10px;
@@ -50,17 +50,16 @@ ul.nav {
 	font-weight: bold;
 	font-size: 13px;
 	background: #724129 url('../images/gradient.png') repeat-x 0 -110px;
-
- -moz-border-radius-topright: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -webkit-border-top-left-radius: 10px;
+  	-moz-border-radius-topright: 10px;
+  	-moz-border-radius-topleft: 10px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
 	behavior: url('plugins/PIE/PIE.htc');
 }
-ul.nav li {
+nav ul#nav li {
 	display: inline;
 }
-ul.nav li a {
+nav ul#nav li a {
 	display: block;
 	float: left;
 	margin: 5px;
@@ -70,102 +69,59 @@ ul.nav li a {
 	text-decoration: none;
 	color: #e7e5e5;
 }
-	/* APPLIES THE ACTIVE STATE */
-ul.nav a.selected, ul.nav li:hover > a  {
+nav ul#nav a.selected, 
+nav ul#nav li:hover > a {
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
 	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
-
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	box-shadow: 0 1px 1px rgba(0,0,0, .2);
-
-	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url('plugins/PIE/PIE.htc');
 }
-ul.nav ul {
-  display: none;
-  z-index: 10000;
+nav ul#nav ul {
+	display: none;
+	z-index: 10000;
 }
-
-/* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
-ul.nav li:hover > ul {
-  position: absolute;
-  display: block;
-  width: 960px;
-  height: 45px;
-  margin: 45px 0 0 -10px;
-		background: #724129;
-   -moz-border-radius-bottomright: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -webkit-border-bottom-left-radius: 10px;
+nav ul#nav li:hover > ul {
+	display: block;
+	position: absolute;
+	width: 960px;
+	height: 45px;
+	margin: 45px 0 0 -10px;
+	background-color: #724129;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	behavior: url('plugins/PIE/PIE.htc');
 }
-
-ul.nav li:hover > ul li a {
-  float: left;
-  color: #fff;
-  padding: 0 20px;
+nav ul#nav li:hover > ul li a {
+	float: left;
+	color: #fff;
+	padding: 0 20px;
 }
-ul.nav li:hover > ul li a:hover {
+nav ul#nav li:hover > ul li a:hover {
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
 	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
-
-	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
-	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
-	box-shadow: 0 1px 1px rgba(0,0,0, .2);
-
-	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	
-  	-webkit-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url('plugins/PIE/PIE.htc');
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+	box-shadow: 0 1px 1px rgba(0,0,0, .2);
 }
-/*
-ul.nav li a#home:hover,
-ul.nav li a#home.selected {
-	border-bottom: 2px solid #063b79;
-	color: #063b79;
-}
-ul.nav li a#about:hover,
-ul.nav li a#about.selected {
-	border-bottom: 2px solid #2b0d46;
-	color: #2b0d46;
-}
-ul.nav li a#services:hover,
-ul.nav li a#services.selected {
-	border-bottom: 2px solid #677c26;
-	color: #677c26;
-}
-ul.nav li a#incometax:hover,
-ul.nav li a#incometax.selected {
-	border-bottom: 2px solid #ffa53a;
-	color: #ffa53a;
-}
-ul.nav li a#resources:hover,
-ul.nav li a#resources.selected {
-	border-bottom: 2px solid #c97a2b;
-	color: #c97a2b;
-}
-ul.nav li a#mortgagecalculator:hover,
-ul.nav li a#mortgagecalculator.selected {
-	border-bottom: 2px solid #84101a;
-	color: #84101a;
-}
-ul.nav li a#contact:hover,
-ul.nav li a#contact.selected {
-	border-bottom: 2px solid #2b0d46;
-	color: #2b0d46;
-}
-*/
 /* /NAVIGATION ================================================================== */
 
 /* CONTENT ====================================================================== */
@@ -223,9 +179,9 @@ div#slider {
     height: 450px;
 	max-width: 940px;
     max-height: 450px;
-    background: #fff url('../images/ajax_loader.gif') no-repeat 50% 50%;
+    overflow: hidden;
+    background: #e8e1cc url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 1px solid #ccc;
-	overflow: hidden;
 }
 div#slider img {
 	display: none;
