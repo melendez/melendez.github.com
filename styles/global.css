@@ -100,7 +100,7 @@ ul.nav li:hover > ul {
   width: 960px;
   height: 45px;
   margin: 45px 0 0 -10px;
-		background: #b1a1a1;
+		background: #724129;
    -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -moz-border-radius-bottomleft: 10px;
@@ -113,7 +113,7 @@ ul.nav li:hover > ul li a {
   padding: 0 20px;
 }
 ul.nav li:hover > ul li a:hover {
-	background: #492425 url('../images/gradient.png') repeat-x 0 -40px;
+	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 
