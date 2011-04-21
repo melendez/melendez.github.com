@@ -127,7 +127,6 @@ nav ul#nav li:hover > ul li a:hover {
 /* CONTENT ====================================================================== */
 section.content {
 	padding: 30px 20px 40px 20px;
-	margin-bottom: 30px;
 	background-color: #e8e1cc;
 	-webkit-border-bottom-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
@@ -455,7 +454,7 @@ footer.main {
 	position: relative;
 	width: 960px;
 	height: 140px;
-	margin: 0 auto;
+	margin: 35px auto;
 	background: url('../images/bg_footer.png') repeat-x 0 0;
 }
 footer.main p.copyright {
