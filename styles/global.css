@@ -474,6 +474,7 @@ footer.main p.copyright a:hover {
 footer.main div.creditation {
 	position: absolute;
 	right: 0;
+	bottom: 0;
 }
 footer.main div.creditation img {
 	margin-left: 5px;
