@@ -170,10 +170,9 @@ ul.nav li a#contact.selected {
 
 /* CONTENT ====================================================================== */
 section.content {
-	min-height: 300px;
+	min-height: 500px;
 	padding: 20px 10px 10px 10px;
 	background-color: #e8e1cc;
-	clear: both;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-size: 36px;
