@@ -225,7 +225,7 @@ div#slider {
 	border: 1px solid #ccc;
 }
 div#slider img {
-	min-width: 880px;
+	max-width: 940px;
 	display: none;
 	padding: 7px;
 }
