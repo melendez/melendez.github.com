@@ -178,6 +178,7 @@ div#slider {
     height: 450px;
 	max-width: 930px;
     max-height: 450px;
+    margin-bottom: 15px;
     background: #e8e1cc url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #eee;
 }
@@ -187,8 +188,8 @@ div#slider img {
 /* nav bullets */
 .nivo-controlNav {
 	position:absolute;
-	left:260px;
-	bottom:-52px;
+	left: 50%;
+	bottom:-47px;
 }
 .nivo-controlNav a {
 	display:block;
