@@ -229,6 +229,7 @@ div#slider {
 }
 div#slider img {
 	position: absolute;
+	top: -500px;
 	display: none;
 	padding: 7px;
 }
