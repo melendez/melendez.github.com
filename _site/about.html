@@ -3,15 +3,20 @@
 <head>
 	<meta charset='utf-8' />
 	<meta name='description' content='Melendez Realty Group - Real estate and financial services' />
-	<meta name='keywords' content='melendez realty group, real estate, financial services' />
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=1;' />
-	<title>About &#8212; Melendez Realty Group</title>
+	<meta name='keywords' content='melendez realty group, mrg properties, real estate, realty, financial services' />
+	<meta name='viewport' content='width=device-width, initial-scale=0, maximum-scale=1, user-scalable=1;' />
+	<title>About &#8212; MRG Properties Inc.</title>
+	<link href='favicon.ico' rel='shortcut icon' />
+	<link href='images/apple-touch-icon.png' rel='apple-touch-icon-precomposed' />
+	<link href='http://www.mrgpropertiesinc.com/' rel='canonical' />
 	<link href='styles/reset.css' rel='stylesheet' />
 	<link href='styles/global.css' rel='stylesheet' />
 	<link href='plugins/nivo-slider/nivo-slider.css' rel='stylesheet' />
-	<link href='/favicon.ico' rel='shortcut icon' />
 	<script src='scripts/jquery.min.js'></script>
 	<script src='plugins/nivo-slider/jquery.nivo.slider.js'></script>
+	<script src='plugins/calculator/loancalculator.js'></script> 
+	<script src='plugins/calculator/propertypricecalculator.js'></script> 
+	<script src='http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script> 
 	<script src='scripts/main.js'></script>
 	<!--[if lt IE 9]>
 		<script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>
@@ -20,45 +25,45 @@
 </head>
 <body>
 <div id='wrap'>
-	<header class='main'>
-		<a href='/'><img class='logo' src='images/logo.png' alt='' /></a>
-		<span class='description'>Melendez Realty Group / Real Estate &amp; Financial Services</span>
+	<header>
+		<h1><a href='/'><img class='logo' src='images/logo.png' alt='MGR Properties Inc' /></a></h1>
 	</header>
-	<nav class='main'>
-		<ul class='nav'>
+	<nav>
+		<ul id='nav'>
 			<li><a id='home' href='/'>Home</a></li>
-			<li><a id='about' href='/about'>About</a></li>
+			<li><a id='about' href='/about'>About Us</a></li>
 			<li>
-				<a id='services' href='/services'>Services &#8711;</a>
-				<ul class='subnav services'>
-					<li><a href='/mlssearch'>MLS Property Search</a></li>
-					<li><a href='/hudsearch'>HUD Homes Search</a></li>
-					<li><a href='/mortgagecalculator'>Mortgage Calculator</a></li>
+				<a id='search' href='/search'>Search for &#8711;</a>
+				<ul>
+					<li><a href='/featured'>Featured Properties</a></li>
+					<li><a href='/mlssearch'>MLS Properties</a></li>
+					<li><a href='/hudsearch'>HUD Homes</a></li>
 				</ul>
 			</li>
 			<li><a id='incometax' href='/incometax'>Income Tax</a></li>
 			<li><a id='resources' href='/resources'>Resources</a></li>
+			<li><a id='mortgagecalculator' href='/mortgagecalculator'>Mortgage Calculator</a></li>
 			<li><a id='contact' href='/contact'>Contact</a></li>
 		</ul>
 	</nav>
 	<section class='content about'>
-	<h3>About us</h3>
-	
-	<p class='first'><strong>Melendez Realty Group</strong> offers <strong>efficient</strong> and <strong>experienced</strong> real estate professionals<br />
+	<img class='main' src='images/placeholder.jpg' alt='About Us' />
+	<h1>About us</h1>
+	<p class='second'><strong>Melendez Realty Group</strong> offers <strong>efficient</strong> and <strong>experienced</strong> real estate professionals<br />
 	to help buy or sell your home.</p>
-	
-	<h3>Araceli Melendez</h4>
+	<h2>Araceli Melendez</h2>
 	<span class='license'>Realtor / Broker, Lic. #01703409</span>
 	<p class='third'>Araceli sets the tone for a motivated, disciplined and dedicated team environment. Araceli provides full support for all your real estate needs.</p>
-	
-	<h3>Jacob Melendez</h4>
+	<h2>Jacob Melendez</h2>
 	<span class='license'>Realtor, Lic. #01767073</span>
 	<p class='third'>Jacob has many years of diverse customer related experience. Jacob works extensively to help buyers and sellers meet their real estate goals.</p>
-</section>
+	<div class='clear'></div>
+	</section>
 </div>
-<footer class='main'>
-	<p class='copyright'>&#169; 2009 - <script>var date = new Date(); var thisYear = date.getFullYear(); document.write(thisYear);</script> MRGP, Inc. All rights reserved.</p>
-	<div class='creditation'><img src='images/psc.png' /><img src='images/sfr.png' /><img src='images/eho.png' /><img src='images/mls.png' /></div>
+<footer class='main'>		
+	<p class='copyright'>&#169; <script>var date = new Date(); var thisYear = date.getFullYear(); document.write(thisYear);</script> MRG Properties, Inc. All rights reserved.
+		<span class='design'>Designed by <a href='http://www.miguelmota.com'>Miguel Mota</a></span></p>
+	<div class='creditation'><img src='images/psc.png' alt='psc' /><img src='images/sfr.png' alt='sfr' /><img src='images/eho.png' alt='eho' /><img src='images/mls.png' alt='mls' /></div>
 </footer>
 <script>
   var _gaq = _gaq || [];
@@ -70,6 +75,5 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<!-- Designed by Miguel Mota <http://www.miguelmota.com> -->
 </body>
 </html>
