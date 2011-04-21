@@ -189,10 +189,7 @@ div#slider img {
 .nivo-controlNav {
 	position:absolute;
 	left:260px;
-	bottom:-42px;
-	padding: 40px;
-	background-color: #000;
-	z-index: 3444444;
+	bottom:-52px;
 }
 .nivo-controlNav a {
 	display:block;
