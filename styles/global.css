@@ -49,7 +49,7 @@ ul.nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background: #72433b url('../images/gradient.png') repeat-x 0 -110px;
+	background: #724129 url('../images/gradient.png') repeat-x 0 -110px;
 
  -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -111,7 +111,6 @@ ul.nav li:hover > ul li a {
   float: left;
   color: #fff;
   padding: 0 20px;
-  margin: 5px;
 }
 ul.nav li:hover > ul li a:hover {
 	background: #492425 url('../images/gradient.png') repeat-x 0 -40px;
