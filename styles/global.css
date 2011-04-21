@@ -471,6 +471,10 @@ footer.main p.copyright a {
 footer.main p.copyright a:hover {
 	text-decoration: underline;
 }
+footer.main p.copyright span.design {
+	display: block;
+	font-size: 9px;
+}
 footer.main div.creditation {
 	position: absolute;
 	right: 10px;
