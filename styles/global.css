@@ -127,6 +127,7 @@ nav ul#nav li:hover > ul li a:hover {
 /* CONTENT ====================================================================== */
 section.content {
 	padding: 30px 20px 40px 20px;
+	margin-bottom: 25px;
 	background-color: #e8e1cc;
 	-webkit-border-bottom-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
@@ -181,11 +182,12 @@ section.content p a:hover {
 /* NIVO SLIDER ------------------------------------------------------------------*/
 div#slider {
     position: relative;
+    left: -15px;
     width: 930px;
     height: 450px;
 	max-width: 930px;
     max-height: 450px;
-    margin: 0 auto 25px auto;
+    margin-bottom: 25px;
     background: #e8e1cc url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #eee;
 }
