@@ -98,7 +98,7 @@ ul.nav li:hover > ul {
   display: block;
   width: 960px;
   height: 45px;
-  margin: 51px 0 0 0;
+  margin: 45px 0 0 0;
 		background: #b1a1a1;
    -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
@@ -127,9 +127,6 @@ ul.nav li:hover > ul li a:hover {
 	-o-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url('plugins/PIE/PIE.htc');
-}
-ul.nav li a#services {
-	margin-bottom: 0;
 }
 /*
 ul.nav li a#home:hover,
