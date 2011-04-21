@@ -21,7 +21,9 @@ $(document).ready(function(){
 $(window).load(function(){
 	
 	// initialize nivo slider
-	$('div#slider').nivoSlider();
+	$('div#slider').nivoSlider({
+		pauseTime: 5000
+	});
 	
 });
 
