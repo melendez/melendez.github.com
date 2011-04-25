@@ -337,6 +337,7 @@ section.resources div#feed a:hover {
 	color: #c97a2b;
 }
 section.resources span.date {
+	float: right;
 	font-size: 9px;
 	color: #8e886b;
 }
