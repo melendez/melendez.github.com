@@ -111,9 +111,8 @@ nav ul#nav li:hover > ul li a {
 }
 nav ul#nav li:hover > ul li a:hover {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
-	color: #444;
-	border-top: solid 1px #f8f8f8;
+	background-color: #3d2418;
+	color: #fff;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
