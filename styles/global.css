@@ -283,7 +283,7 @@ section.about p.third {
 
 /* RESOURCES ================================================================== */
 section.resources div.left {
-	width: 400px;
+	width: 450px;
 	float: left;
 }
 section.resources img,
@@ -308,11 +308,11 @@ section.resources p {
 	font-size: 14px;
 }
 section.resources div.right {
-	width: 400px;
+	width: 500px;
 	float: right;
 }
 section.resources div#feed {
-	width: 400px;
+	width: 500px;
 	float: right;
 	font-size: 14px;
 }
@@ -445,11 +445,13 @@ section.mortgagecalculator p.disclaimer {
 
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
-	width: 500px;
 	float: left;
+	width: 500px;
 }
 section.contact div.contact_info {
+	width: 450px;
 	float: right;
+	text-align: left;
 }
 /* /CONTACT ===================================================================*/
 
