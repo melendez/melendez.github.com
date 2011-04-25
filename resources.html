@@ -34,7 +34,8 @@ title: Resources
 				if(!result.error){
 					var thefeeds = result.feed.entries;
 					for(var i=0; i < thefeeds.length; i++){
-						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a><span class='date'>"+thefeeds[1].pubDate+"</span></li>";
+						var date = new Date(thefeeds[1].pubDate);
+						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a><span class='date'>"+date+"</span></li>";
 					}
 					rssoutput += "</ul><a class='more' href='http://www.houselogic.com/news/'>more &#187;</a>";
 					feedcontainer.innerHTML = rssoutput;
