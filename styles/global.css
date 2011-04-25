@@ -8,10 +8,18 @@
 	url('../fonts/aller-webfont/aller_bd-webfont.ttf') format('truetype'),
 	url('../fonts/aller-webfont/aller_bd-webfont.svg') format('svg');
 }
+@font-face {
+	font-family: Trajan;
+	src: url('../fonts/trajan-webfont/trajan_regular-webfont.eot');
+	src: local('☺'),
+	url('../fonts/trajan-webfont/trajan_regular-webfont.woff') format('woff'),
+	url('../fonts/trajan-webfont/trajan_regular-webfont.ttf') format('truetype'),
+	url('../fonts/trajan-webfont/trajan_regular-webfont.svg') format('svg');
+}
 
 body {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Trajan, Georgia, 'Times New Roman', Times, serif;
 	font-size: 18px;
 	background: #f0ebd9 url('../images/bg_body.jpg') repeat-x 0 0;
 	color: #5c5532;
