@@ -336,6 +336,10 @@ section.resources div#feed a:hover {
 	border-bottom: 1px dotted #c97a2b;
 	color: #c97a2b;
 }
+section.resources span.date {
+	font-size: 9px;
+	color: #8e886b;
+}
 /* /RESOURCES =================================================================*/
 
 /* MORTGAGE CALCULATOR ========================================================*/

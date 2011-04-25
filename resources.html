@@ -35,33 +35,12 @@ title: Resources
 					var thefeeds = result.feed.entries;
 					for(var i=0; i < thefeeds.length; i++){
 						var date = new Date(thefeeds[i].publishedDate);
+						var year = date.getFullYear();
+						var month = date.getMonth();
+						var day = date.getDay();
+						var postedDate = day+'/'+month+'/'+year;
 						
-						var niceTime = (function() {
-						    var ints = {
-						        second: 1,
-						        minute: 60,
-						        hour: 3600,
-						        day: 86400,
-						        week: 604800,
-						        month: 2592000,
-						        year: 31536000
-						    };
-						    return function(time) {
-						        time = +new Date(time);
-						        var gap = ((+new Date()) - time) / 1000,
-						            amount, measure;
-						        for (var i in ints) {
-						            if (gap > ints[i]) { measure = i; }
-						        }
-						        amount = gap / ints[measure];
-						        amount = gap > ints.day ? (Math.round(amount * 100) / 100) : Math.round(amount);
-						        amount += ' ' + measure + (amount > 1 ? 's' : '') + ' ago';
-						        return amount;
-						    };
-						 
-						})();
-						
-						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a> <span class='date'>"+niceTime(date)+"</span></li>";
+						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a> <span class='date'>"+postedDate+"</span></li>";
 					}
 					rssoutput += "</ul><a class='more' href='http://www.houselogic.com/news/'>more &#187;</a>";
 					feedcontainer.innerHTML = rssoutput;
