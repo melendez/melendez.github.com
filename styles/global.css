@@ -36,6 +36,7 @@ div#wrap {
 header {
 	height: 180px;
 	background: url('../images/bg_header.png') repeat-x 0 0;
+	overflow: hidden;
 }
 header img.logo {
 	width: 400px;
