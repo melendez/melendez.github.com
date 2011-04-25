@@ -34,7 +34,7 @@ title: Resources
 				if(!result.error){
 					var thefeeds = result.feed.entries;
 					for(var i=0; i < thefeeds.length; i++){
-						var date = new Date(thefeeds[1].pubDate);
+						var date = new Date(thefeeds[i].publishedDate);
 						var year = date.getFullYear();
 						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a> <span class='date'>"+year+"</span></li>";
 					}
