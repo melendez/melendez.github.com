@@ -34,9 +34,7 @@ div#wrap {
 
 /* HEADER ====================================================================== */
 header {
-	position: relative;
-	height: 267px;
-	margin-bottom: -75px;
+	height: 180px;
 	background: url('../images/bg_header.png') repeat-x 0 0;
 }
 header img.logo {
