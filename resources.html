@@ -40,7 +40,7 @@ title: Resources
 						var day = date.getDate();
 						var postedDate = month+'/'+day+'/'+year;
 						
-						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a> <span class='date'>"+postedDate+"</span> <p>"+thefeeds[i].content+"</p></li>";
+						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a><p>"+thefeeds[i].content+"<span class='date'>"+postedDate+"</span></p></li>";
 					}
 					rssoutput += "</ul><a class='more' href='http://www.houselogic.com/news/'>more &#187;</a>";
 					feedcontainer.innerHTML = rssoutput;

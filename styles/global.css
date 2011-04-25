@@ -328,6 +328,9 @@ section.resources div#feed {
 section.resources div#feed ul li {
 	margin: 5px 0;
 }
+section.resources div#feed ul li p {
+	margin-bottom: 0;
+}
 section.resources div#feed a {
 	text-shadow: none;
 	color: #8da64d;
