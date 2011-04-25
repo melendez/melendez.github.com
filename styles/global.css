@@ -308,11 +308,11 @@ section.resources p {
 	font-size: 14px;
 }
 section.resources div.right {
-	width: 500px;
+	width: 450px;
 	float: right;
 }
 section.resources div#feed {
-	width: 500px;
+	width: 450px;
 	float: right;
 	font-size: 14px;
 }
@@ -446,7 +446,7 @@ section.mortgagecalculator p.disclaimer {
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
 	float: left;
-	width: 500px;
+	width: 450px;
 }
 section.contact div.contact_info {
 	width: 450px;
