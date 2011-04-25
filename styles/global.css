@@ -107,11 +107,11 @@ nav ul#nav li:hover > ul {
 nav ul#nav li:hover > ul li a {
 	float: left;
 	color: #fff;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 nav ul#nav li:hover > ul li a:hover {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	background-color: #3d2418;
+	background: #3d2418;
 	color: #fff;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
