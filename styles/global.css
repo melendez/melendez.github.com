@@ -329,6 +329,7 @@ section.resources div#feed ul li {
 	margin: 5px 0;
 }
 section.resources div#feed a {
+	width: 380px;
 	max-width: 380px;
 	text-shadow: none;
 	color: #8da64d;
