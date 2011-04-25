@@ -111,9 +111,9 @@ nav ul#nav li:hover > ul li a {
 	padding: 0 10px;
 }
 nav ul#nav li:hover > ul li a:hover {
-	text-shadow: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0, 1);
 	background: #3d2418;
-	color: #444;
+	color: #fff;
 	border-top: none;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
