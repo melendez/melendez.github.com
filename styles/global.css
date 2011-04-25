@@ -308,7 +308,7 @@ section.resources p {
 	font-size: 14px;
 }
 section.resources div.right {
-	width: 450px;
+	width: 400px;
 	float: right;
 }
 section.resources div#feed {
@@ -449,7 +449,7 @@ section.contact div.contact_form {
 	width: 450px;
 }
 section.contact div.contact_info {
-	width: 450px;
+	width: 400px;
 	float: right;
 	text-align: left;
 }
