@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	// check pathname and add selected class to nav link
 	var pathname = window.location.pathname;
-	$('nav ul#nav li > a').each(function(){
+	$('nav ul#nav li a').each(function(){
 		if($(this).attr('href') == pathname){
 			$(this).addClass('selected');
 		}
