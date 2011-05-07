@@ -271,6 +271,7 @@ div.clear {
 
 /* ABOUT ====================================================================== */
 section.about img.main {
+	display: none;
 	width: 880px;
 	height: 300px;
 	margin-bottom: 5px;
