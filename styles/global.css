@@ -180,7 +180,7 @@ p.second {
 p.third {
 	font-size: 18px;
 }
-section.content a {
+section.content p a {
 	text-shadow: none;
 	color: #8da64d;
 	-webkit-transition: background-color linear .3s;
@@ -188,7 +188,7 @@ section.content a {
 	-o-transition: background-color linear .3s;
 	transition: background-color linear .3s;
 }
-section.content a:hover {
+section.content p a:hover {
 	border-bottom: 1px dotted #c97a2b;
 	color: #c97a2b;
 }
