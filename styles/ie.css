@@ -7,6 +7,7 @@ nav ul#nav li > a.selected {
 	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 	text-decoration: none;
 	color: #e7e5e5;
+	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
 }
 span.nabla {
 	display: none;
