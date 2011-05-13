@@ -78,7 +78,7 @@ nav ul#nav li a {
 	text-decoration: none;
 	color: #e7e5e5;
 }
-nav ul#nav li > a.selected, 
+nav ul#nav li:hover > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
 	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
