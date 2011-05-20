@@ -26,6 +26,3 @@ $(window).load(function(){
 	});
 	
 });
-
-//load google feeds
-google.load('feeds','1');
