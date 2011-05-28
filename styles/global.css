@@ -43,10 +43,8 @@ header img.logo {
 	height: 267px;
 	margin-top: -15px;
 }
-header img.facebook_button {
-	float: right;
-	border: 1px solid;
-	padding: 100px;
+header a.facebook {
+
 }
 header img.facebook_button {
 	width: 200px;
