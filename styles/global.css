@@ -45,6 +45,12 @@ header img.logo {
 	height: 267px;
 	margin-top: -15px;
 }
+header img.facebook_button {
+	float: right;
+	width: 90px;
+	height: auto;
+	margin: 135px 10px 0 0;
+}
 /* /HEADER ===================================================================== */
 
 /* NAVIGATION ================================================================== */
@@ -135,34 +141,6 @@ nav ul#nav li:hover > ul li a:hover {
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	box-shadow: 0 1px 1px rgba(0,0,0, .2);
-}
-a.facebook {
-	text-shadow: none;
-	background: none;
-	border-top: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-  	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-o-border-radius: 0;
-	border-radius: 0;
-}
-a.facebook:hover {
-	text-shadow: none;
-	background:  none;
-	border-top:  none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow:  none;
-	box-shadow:  none;
-  	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-o-border-radius: 0;
-	border-radius: 0;
-}
-img.facebook_button {
-	width: 90px;
-	height: auto;
 }
 /* /NAVIGATION ================================================================== */
 
