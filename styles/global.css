@@ -49,8 +49,9 @@ header a.facebook {
 
 }
 header img.facebook_button {
-	width: 200px;
-	height: 200px;
+	float: right;
+	width: 120px;
+	height: auto;
 }
 /* /HEADER ===================================================================== */
 
