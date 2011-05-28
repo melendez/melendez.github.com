@@ -40,6 +40,7 @@ header {
 	overflow: hidden;
 }
 header img.logo {
+	float: left;
 	width: 400px;
 	height: 267px;
 	margin-top: -15px;
