@@ -43,6 +43,11 @@ header img.logo {
 	height: 267px;
 	margin-top: -15px;
 }
+header img.facebook_button {
+	float: right;
+	width: 40px;
+	height: auto;
+}
 /* /HEADER ===================================================================== */
 
 /* NAVIGATION ================================================================== */
