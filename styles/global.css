@@ -59,7 +59,7 @@ nav ul#nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background: #724129 url('../images/gradient.png') repeat-x 0 -110px;
+	background: #123460 url('../images/gradient.png') repeat-x 0 -110px; /* brown: #724129 */
   	-moz-border-radius-topright: 10px;
   	-moz-border-radius-topleft: 10px;
   	border-top-right-radius: 10px;
@@ -82,7 +82,7 @@ nav ul#nav li a {
 nav ul#nav li > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	background: #724129 url('../images/gradient.png') repeat-x 0 -45px;
+	background: #123460 url('../images/gradient.png') repeat-x 0 -45px; /* brown: #724129 */
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
