@@ -45,14 +45,9 @@ header img.logo {
 	height: 267px;
 	margin-top: -15px;
 }
-header a.facebook {
-
-}
 header img.facebook_button {
-	float: right;
 	width: 90px;
 	height: auto;
-	margin: 133px 10px 0 0;
 }
 /* /HEADER ===================================================================== */
 
