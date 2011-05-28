@@ -43,10 +43,12 @@ header img.logo {
 	height: 267px;
 	margin-top: -15px;
 }
-header img.face8book_button {
+header img.facebook_button {
 	float: right;
 	width: 200px;
-	height: auto;
+	height: 200px;
+	border: 1px solid;
+	padding: 100px;
 }
 /* /HEADER ===================================================================== */
 
