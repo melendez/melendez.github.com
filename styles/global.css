@@ -90,7 +90,7 @@ nav ul#nav li a {
 nav ul#nav li > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	background: #123460 url('../images/gradient.png') repeat-x 0 -45px; /* brown: #724129 */
+	background: #0b203a; /*url('../images/gradient.png') repeat-x 0 -45px;*/ /* brown: #724129 */
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
