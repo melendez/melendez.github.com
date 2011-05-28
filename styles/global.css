@@ -50,8 +50,9 @@ header a.facebook {
 }
 header img.facebook_button {
 	float: right;
-	width: 120px;
+	width: 60px;
 	height: auto;
+	margin-top: 250px;
 }
 /* /HEADER ===================================================================== */
 
