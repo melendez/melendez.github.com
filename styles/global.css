@@ -45,10 +45,12 @@ header img.logo {
 }
 header img.facebook_button {
 	float: right;
-	width: 200px;
-	height: 200px;
 	border: 1px solid;
 	padding: 100px;
+}
+header img.facebook_button {
+	width: 200px;
+	height: 200px;
 }
 /* /HEADER ===================================================================== */
 
