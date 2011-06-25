@@ -79,7 +79,7 @@ nav ul#nav {
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	font-size: 13px;
-	background: #123460 url('../images/gradient.png') repeat-x 0 -20px; /* brown: #724129 */
+	background: #123460 url('../images/gradient.png') repeat-x 0 -180px; /* brown: #724129 */
   	-moz-border-radius-topright: 10px;
   	-moz-border-radius-topleft: 10px;
   	border-top-right-radius: 10px;
