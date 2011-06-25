@@ -309,18 +309,19 @@ section.about img.main {
 	background-color: #fff;
 }
 section.about div.agent_container {
-	height: 128px;
-	padding: 25px 0;
+	padding-bottom: 25px;
+}
+section.about div.agent_photo_container {
+	height: 138px;
+	padding-bottom: 15px;
 	width: 100%;
 }
-section.about div.agent_container:first {
-	padding: 0 0 25px 0;
-}
-section.about div.agent_container img {
+section.about div.agent__photo_container img {
 	border: 5px solid #ada58e;
 	float: left;
 	height: 128px;
 	margin-right: 20px;
+	min-width: 100px;
 	width: auto;
 }
 section.about h3 {
@@ -328,7 +329,7 @@ section.about h3 {
 }
 section.about span.license {
 	clear: right;
-	color: #8e886b;
+	color: #63686b;
 }
 section.about p.third {
 	margin-top: 5px;
