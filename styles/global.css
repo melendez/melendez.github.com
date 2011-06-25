@@ -311,7 +311,8 @@ section.about img.main {
 section.about div.agent_container {
 	height: 128px;
 	margin-bottom: 10px;
-	width: auto;
+	width: 100%;
+	border: 1px solid;
 }
 section.about div.agent_container img {
 	border: 5px solid #ada58e;
