@@ -220,7 +220,8 @@ div#slider img {
 .nivo-controlNav {
 	position:absolute;
 	left: 45%;
-	bottom:-40px;
+	bottom:-35px;
+	margin-bottom: 15px;
 }
 .nivo-controlNav a {
 	display:block;
