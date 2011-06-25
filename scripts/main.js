@@ -8,7 +8,7 @@ $(document).ready(function(){
 		}
 	});	
 	
-	$('ul#nav li').hover(function(){
+	$('ul#nav li').click(function(){
 		$(this).find('ul.subnav').slideDown('fast').show();
 		},
 		function(){

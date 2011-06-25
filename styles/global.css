@@ -31,7 +31,7 @@ div#wrap {
 p a {
 	border-bottom: 1px dotted #385160;
 	color: #385160;
-	-webkit-transition: background-color linear .1s, border linear .1s, color linear .1s;
+	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
 	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
@@ -98,6 +98,10 @@ nav ul#nav li a {
 	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 	text-decoration: none;
 	color: #e7e5e5;
+	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
+	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 }
 /* orginal
 nav ul#nav li > a.selected, 
@@ -120,6 +124,7 @@ nav ul#nav li > a.selected,
 nav ul#nav li:hover > a {
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 	background: #0b203a;
+	border-bottom: 1px solid #265977;
 	color: #fff;
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -521,8 +526,10 @@ footer.main p.copyright {
 }
 footer.main p.copyright a {
 	color: #8c8671;
+	border-bottom: none;
 }
 footer.main p.copyright a:hover {
+	border-bottom: none;
 	text-decoration: underline;
 }
 footer.main p.copyright span.design {
