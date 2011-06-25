@@ -99,9 +99,9 @@ nav ul#nav li a {
 	text-decoration: none;
 	color: #e7e5e5;
 	-webkit-transition: background-color linear .1s, color linear .1s;
-	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
-	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
-	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-moz-transition: background-color linear .1s, color linear .1s;
+	-o-transition: background-color linear .1s, color linear .1s;;
+	transition: background-color linear .1s, color linear .1s;
 }
 /* orginal
 nav ul#nav li > a.selected, 
@@ -124,7 +124,7 @@ nav ul#nav li > a.selected,
 nav ul#nav li:hover > a {
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
 	background: #0b203a;
-	border-bottom: 1px solid #265977;
+	border: 1px solid #265977;
 	color: #fff;
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
