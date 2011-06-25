@@ -378,12 +378,16 @@ section.resources div#feed ul li p {
 	margin-bottom: 0;
 }
 section.resources div#feed a {
-	text-shadow: none;
-	color: #8da64d;
+	border-bottom: 1px dotted #385160;
+	color: #385160;
+	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
+	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 }
 section.resources div#feed a:hover {
-	border-bottom: 1px dotted #c97a2b;
-	color: #c97a2b;
+	border-bottom: 1px solid #265977;
+	color: #265977;
 }
 section.resources span.date {
 	font-size: 9px;
