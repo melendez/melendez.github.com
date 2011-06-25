@@ -231,7 +231,7 @@ div#slider {
     max-height: 450px;
     margin-bottom: 30px;
     background: #d6cfbc url('../images/ajax_loader.gif') no-repeat 50% 50%;
-	border: 7px solid #eee;
+	border: 7px solid #b7b09f;
 }
 div#slider img {
 	display: none;
@@ -317,7 +317,7 @@ section.about div.agent_photo_container {
 	width: 100%;
 }
 section.about div.agent_photo_container img {
-	border: 5px solid #9ca3a8;
+	border: 5px solid #b7b09f;
 	float: left;
 	height: 128px;
 	margin-right: 20px;
