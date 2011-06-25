@@ -28,7 +28,7 @@ div#wrap {
 	margin: 0 auto;
 	width: 960px;
 }
-a {
+p a {
 	border-bottom: 1px dotted #385160;
 	color: #385160;
 	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
@@ -36,7 +36,7 @@ a {
 	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
 	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 }
-a:hover {
+p a:hover {
 	border-bottom: 1px solid #265977;
 	color: #265977;
 }
