@@ -18,7 +18,7 @@
 }
 
 body {
-	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 18px;
 	background: #f0ebd9 url('../images/bg_body.jpg') repeat-x 0 0;
@@ -97,7 +97,7 @@ nav ul#nav li a {
 	margin: 5px;
 	padding: 0 10px;
 	line-height: 40px;
-	text-shadow: 0 1px 1px rgba(0,0,0, .3);
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	text-decoration: none;
 	color: #e7e5e5;
 	-webkit-transition: background-color linear .1s, color linear .1s;
@@ -230,7 +230,7 @@ div#slider {
 	max-width: 930px;
     max-height: 450px;
     margin-bottom: 30px;
-    background: #d6cfbc url('../images/ajax_loader.gif') no-repeat 50% 50%;
+    background: #a url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #b7b09f;
 }
 div#slider img {
@@ -393,6 +393,7 @@ section.resources div#feed a:hover {
 }
 section.resources span.date {
 	font-size: 9px;
+	text-shadow: 0 1px 0 rgba(255,255,255,.2);
 }
 /* /RESOURCES =================================================================*/
 
