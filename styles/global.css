@@ -92,7 +92,7 @@ nav ul#nav li {
 nav ul#nav li a {
 	display: block;
 	background: rgba(11,32,58,.2);
-	border: 1px solid #385160;
+	border: 1px solid rgba(11,32,58,.5);
 	float: left;
 	margin: 5px;
 	padding: 0 10px;
