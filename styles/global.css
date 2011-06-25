@@ -309,9 +309,9 @@ section.about img.main {
 	background-color: #fff;
 }
 section.about div.agent_container {
-	height: 12px;
+	height: 128px;
 	padding-bottom: 25px;
-	width: 100%;
+	border: 1px solid;
 }
 section.about div.agent_container img {
 	border: 5px solid #ada58e;
