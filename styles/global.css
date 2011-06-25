@@ -209,7 +209,7 @@ div#slider {
     height: 450px;
 	max-width: 930px;
     max-height: 450px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background: #e8e1cc url('../images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #eee;
 }
@@ -220,8 +220,7 @@ div#slider img {
 .nivo-controlNav {
 	position:absolute;
 	left: 45%;
-	bottom:-35px;
-	margin-bottom: 15px;
+	bottom:-38px;
 }
 .nivo-controlNav a {
 	display:block;
