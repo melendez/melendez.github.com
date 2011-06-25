@@ -15,9 +15,7 @@ $(document).ready(function(){
 			$(this).find('ul.subnav').slideUp('fast');
 		}
 	);
-	
-	//initialize google feed;
-	google.load('feeds','1');
+
 });
 
 $(window).load(function(){

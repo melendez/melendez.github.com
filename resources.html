@@ -18,7 +18,10 @@ title: Resources
 		
 		<div id='feed'>loading feed...</div>
 		
+		<script src='/http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script>
 		<script>
+			google.load('feeds','1');
+			
 			var feedcontainer = document.getElementById('feed');
 			var feedurl = 'http://www.houselogic.com/news/rss/';
 			var feedlimit = 5;
