@@ -87,15 +87,28 @@ nav ul#nav li a {
 	text-decoration: none;
 	color: #e7e5e5;
 }
+/* orginal
 nav ul#nav li > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 1px 0 rgba(255,255,255, 1);
-	background: #123460 url('../images/gradient.png') repeat-x 0 -45px; /* brown: #724129 */
+	background: #123460 url('../images/gradient.png') repeat-x 0 -45px; /* brown: #724129 *//*
 	color: #444;
 	border-top: solid 1px #f8f8f8;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url('/plugins/PIE/PIE.htc');
+}
+*/
+nav ul#nav li > a.selected, 
+nav ul#nav li:hover > a {
+	text-shadow: 0 1px 0 rgba(255,255,255, 1);
+	background: #0b203a;
+	color: #fff;
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -287,6 +300,12 @@ section.about img.main {
 	padding: 7px;
 	border: 1px solid #ccc;
 	background-color: #fff;
+}
+section.about div.agent_container img {
+	float: left;
+	height: 128px;
+	margin-right: 20px;
+	width: auto;
 }
 section.about h3 {
 	display: inline;
