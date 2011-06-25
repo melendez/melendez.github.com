@@ -37,7 +37,7 @@ a {
 	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 }
 a:hover {
-	bordre-color: #265977;
+	border: 1px solid #265977;
 	color: #265977;
 }
 /* GENERAL ===================================================================== */
