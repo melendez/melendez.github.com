@@ -107,7 +107,7 @@ nav ul#nav li:hover > a {
 nav ul#nav li > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-	background: #123460;
+	background: #0b203a;
 	color: #fff;
   	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
