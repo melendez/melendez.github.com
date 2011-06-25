@@ -22,7 +22,7 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 18px;
 	background: #f0ebd9 url('../images/bg_body.jpg') repeat-x 0 0;
-	color: #5c5532;
+	color: #414d56 /* brown: #5c5532; */
 }
 div#wrap {
 	margin: 0 auto;
