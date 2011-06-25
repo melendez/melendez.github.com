@@ -329,6 +329,7 @@ section.about h3 {
 }
 section.about div.license {
 	color: #616568;
+	line-height: 100%;
 }
 section.about p.third {
 	margin-top: 5px;
