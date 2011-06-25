@@ -29,11 +29,16 @@ div#wrap {
 	width: 960px;
 }
 a {
+	border-bottom: 1px dotted #385160;
 	color: #385160;
-	-webkit-transition: background-color linear .1s, color linear .1s;
-	-moz-transition: background-color linear .1s;
-	-o-transition: background-color linear .1s;;
-	transition: background-color linear .1ss;
+	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
+	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+}
+a:hover {
+	bordre-color: #265977;
+	color: #265977;
 }
 /* GENERAL ===================================================================== */
 
