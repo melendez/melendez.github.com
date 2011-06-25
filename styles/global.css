@@ -316,7 +316,7 @@ section.about div.agent_photo_container {
 	padding-bottom: 15px;
 	width: 100%;
 }
-section.about div.agent__photo_container img {
+section.about div.agent_photo_container img {
 	border: 5px solid #ada58e;
 	float: left;
 	height: 128px;
