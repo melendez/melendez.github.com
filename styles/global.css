@@ -310,7 +310,7 @@ section.about img.main {
 }
 section.about div.agent_container {
 	height: 128px;
-	padding: 10px;
+	margin-bottom: 10px;
 	width: auto;
 }
 section.about div.agent_container img {
