@@ -98,7 +98,7 @@ nav ul#nav li a {
 	text-shadow: 0 1px 1px rgba(0,0,0, .3);
 	text-decoration: none;
 	color: #e7e5e5;
-	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
+	-webkit-transition: background-color linear .1s, color linear .1s;
 	-moz-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;;
 	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
