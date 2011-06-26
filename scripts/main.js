@@ -61,5 +61,5 @@ function updateClock ( )
 
 function getDate(){
 	var date = new Date(); var theDate = date.getDay()+'/'+date.getMonth(); document.write(theDate);
-	document.getElementById("clock").firstChild.nodeValue = date;
+	document.getElementById("day").firstChild.nodeValue = date;
 }
