@@ -20,7 +20,7 @@
 body {
 	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 18px;
+	font-size: 12px;
 	background: #f0ebd9 url('../images/bg_body.jpg') repeat-x 0 0;
 	color: #3a3d3f /* brown: #5c5532; */
 }
@@ -514,7 +514,7 @@ section.mortgagecalculator p.disclaimer {
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
 	float: left;
-	padding: 5px;
+	padding-right: 10px;
 	width: 450px;
 }
 section.contact div.contact_info {
