@@ -18,7 +18,7 @@ $(document).ready(function(){
 	
 	updateClock();
 	setInterval('updateClock()', 60000 );
-	getDate()
+	getDate();
 
 });
 
