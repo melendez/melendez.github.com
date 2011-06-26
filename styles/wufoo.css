@@ -1,6 +1,3 @@
-.wufoo .container {
-	background: none;
-}
 .wufoo .field {
 	border: 3px solid #ccc;
 	background-color: #fff;
@@ -9,4 +6,7 @@
 .wufoo .field:focus {
 	background-color: #edfdff;
 	color: #555;
+}
+.wufoo input.submit {
+
 }

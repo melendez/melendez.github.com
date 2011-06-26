@@ -514,6 +514,7 @@ section.mortgagecalculator p.disclaimer {
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
 	float: left;
+	padding: 5px;
 	width: 450px;
 }
 section.contact div.contact_info {
