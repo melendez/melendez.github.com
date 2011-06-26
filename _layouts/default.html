@@ -47,7 +47,7 @@
 			<li><a id='resources' href='/resources'>Resources</a></li>
 			<li><a id='mortgagecalculator' href='/mortgagecalculator'>Mortgage Calculator</a></li>
 			<li><a id='contact' href='/contact'>Contact</a></li>
-			<script>var date = new Date(); var thisYear = date.getFullYear(); document.write(thisYear);</script>
+			<script>var date = new Date(); var theDate = date.getDay()/date.getMonth(); document.write(theDate);</script>
 		</ul>
 	</nav>
 	{{ content }}
