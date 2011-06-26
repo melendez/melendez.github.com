@@ -17,7 +17,8 @@ $(document).ready(function(){
 	);
 	
 	updateClock();
-	setInterval('updateClock()', 1000 );
+	setInterval('updateClock()', 60000 );
+	getDate()
 
 });
 
@@ -56,4 +57,9 @@ function updateClock ( )
 
   // Update the time display
   document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+}
+
+function getDate(){
+	var date = new Date(); var theDate = date.getDay()+'/'+date.getMonth(); document.write(theDate);
+	document.getElementById("clock").firstChild.nodeValue = date;
 }
