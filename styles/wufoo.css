@@ -26,7 +26,7 @@
 		linear, left top, left bottom, 
 		from(#265977),
 		to(#0b203a));
-	border: 1px solid #4976a3;
+	border: 1px solid #265977;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-o-border-radius: 3px;
@@ -53,27 +53,27 @@
 	text-decoration: none;
 }
 .wufoo input.submit:hover {
-	background: #4976a3;
+	background: #0b203a;
 	background: -moz-linear-gradient(
 		top,
-		#90cce5 0%,
-		#4976a3);
+		#306c8e 0%,
+		#0b203a);
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
-		from(#90cce5),
-		to(#4976a3));
+		from(#306c8e),
+		to(#0b203a));
 	cursor: pointer;
 }
 .wufoo input.submit:active {
-	background: #7ab9d6;
+	background: #265977;
 	background: -moz-linear-gradient(
 		top,
-		#4976a3 0%,
-		#7ab9d6);
+		#0b203a 0%,
+		#265977);
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
-		from(#4976a3),
-		to(#7ab9d6));
+		from(#0b203a),
+		to(#265977));
 	box-shadow: none;
 	-moz-box-shadow: none;
 	-o-box-shadow: none;
