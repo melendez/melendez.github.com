@@ -230,7 +230,7 @@ div#slider {
 	max-width: 930px;
     max-height: 450px;
     margin-bottom: 30px;
-    background: #a url('../images/ajax_loader.gif') no-repeat 50% 50%;
+    background: #c4bda8 url('/images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #b7b09f;
 }
 div#slider img {
