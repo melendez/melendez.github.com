@@ -150,7 +150,7 @@ nav ul#nav li:hover > ul {
 	width: 960px;
 	height: 45px;
 	margin: 45px 0 0 -10px;
-	background-color: #163f54; /* brown: #724129; */
+	background-color: #253d59; /* brown: #724129; */
 	-webkit-border-bottom-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-bottomleft: 10px;
@@ -170,7 +170,7 @@ nav ul#nav li:hover > ul li a.selected,
 nav ul#nav li:hover > ul li a:hover {
 	text-shadow: 0 -1px 0 rgba(0,0,0, 1);
 	border: none;
-	background: #0b203a; /* brown: #3d2418; */
+	background: #38587c; /* brown: #3d2418; */
 	color: #fff;
 	border-top: none;
 	-webkit-border-radius: 5px;
