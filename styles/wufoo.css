@@ -1,5 +1,12 @@
+.wufoo {
+	background: none;
+}
 .wufoo .field {
 	border: 3px solid #ccc;
 	background-color: #fff;
 	color: #999;
+}
+.wufoo .field:focus {
+	background-color: #edfdff;
+	color: #555;
 }
