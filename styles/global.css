@@ -179,10 +179,9 @@ nav ul#nav li:hover > ul li a:hover {
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
 	box-shadow: 0 1px 1px rgba(0,0,0, .2);
 }
-nav ul#nav span#clock,
-nav ul#nav span#day {
+nav ul#nav li#theDate {
 	font-size: 10px;
-	margin-top: 25px;
+	float: right;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
 }
 /* /NAVIGATION ================================================================== */
