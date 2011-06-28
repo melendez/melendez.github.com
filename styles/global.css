@@ -169,8 +169,8 @@ nav ul#nav li:hover > ul li a {
 nav ul#nav li:hover > ul li a.selected,
 nav ul#nav li:hover > ul li a:hover {
 	text-shadow: 0 -1px 0 rgba(0,0,0, 1);
-	border: none;
-	background: #38587c; /* brown: #3d2418; */
+	border: none !important;
+	background: #38587c !important; /* brown: #3d2418; */
 	color: #fff;
 	border-top: none;
 	-webkit-border-radius: 5px;
