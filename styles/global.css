@@ -130,7 +130,7 @@ nav ul#nav li:hover > a {
 nav ul#nav li > a.selected, 
 nav ul#nav li:hover > a {
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-	background: #0b203a;
+	background: #0b203a !important;
 	border: 1px solid #385160;
 	color: #fff;
   	-webkit-border-radius: 5px;
@@ -170,7 +170,7 @@ nav ul#nav li:hover > ul li a.selected,
 nav ul#nav li:hover > ul li a:hover {
 	text-shadow: 0 -1px 0 rgba(0,0,0, 1);
 	border: none;
-	background: #38587c !important; /* brown: #3d2418; */
+	background: #38587c; /* brown: #3d2418; */
 	color: #fff;
 	border-top: none;
 	-webkit-border-radius: 5px;
