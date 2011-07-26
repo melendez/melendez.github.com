@@ -47,8 +47,8 @@ span#rpt_lblDisclaimer a {
 }
 BODY 
 { 
-    PADDING-LEFT: 20px; 
-    PADDING-TOP: 10px; 
+    PADDING-LEFT: 0; 
+    PADDING-TOP: 0; 
 } 
 
 .channelTitle
