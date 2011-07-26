@@ -11,6 +11,9 @@ table#Gctl00_tsTabControl_-1 td {
 	color: #e7e5e5;
 	-webkit-border-radius: 2px;
 }
+table#Gctl00_tsTabControl_-1 td img {
+	display: none;
+}
 
 BODY 
 { 
