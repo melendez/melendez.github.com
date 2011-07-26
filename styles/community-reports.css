@@ -194,7 +194,7 @@ A.toolbar:hover {
     color: #3a3d3f;
    	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .dataDark A {
@@ -227,7 +227,7 @@ A.dataDark:hover {
     color: #3a3d3f;
    	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .dataLight A {
@@ -369,7 +369,7 @@ body
 }
 .bodyLink img
 {
-	display: none !important;
+	display: none;
 }
 .LabelDataCell 
 {
