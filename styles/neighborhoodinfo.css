@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+table {
+	background-color: #e8e1cc;
+}
+
 BODY 
 { 
     PADDING-LEFT: 20px; 
@@ -213,7 +217,7 @@ A.dataLight:hover {
 }
 body
 {
-    background-color: red;
+    background-color: e8e1cc;
 }
 .SectionHeader
 {
