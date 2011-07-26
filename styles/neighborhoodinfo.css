@@ -22,6 +22,16 @@ table#Gctl00_tsTabControl_-1 td img {
 	display: none;
 }
 
+input[type=text]{
+	border: 3px solid #ccc;
+	background-color: #fff;
+	color: #999;
+}
+input[type=text]:focus {
+	background-color: #edfdff;
+	color: #555;
+}
+
 BODY 
 { 
     PADDING-LEFT: 20px; 
