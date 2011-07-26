@@ -31,8 +31,8 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-table#location_tblAddress {
-	border: none;
+table#location_tdAddress {
+	border: 5px solid blue;
 }
 span#rpt_lblDisclaimer {
 	font-size: 10px;
