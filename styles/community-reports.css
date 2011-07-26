@@ -36,7 +36,8 @@ td#rpt_tdDisclaimor {
 	font-size: 10px;
 	color: #999;
 }
-span#rpt_lblDisclaimer a {
+span#rpt_lblDisclaimer a,
+td#rpt_tdDisclaimor a {
 	color: #999;
 	text-decoration: underline;
 }
@@ -145,7 +146,7 @@ A.dataDark:hover {
 }
 
 .dataLight {
-	BACKGROUND-COLOR: #ffffff; 
+	background-color: #e8e1cc;
 	COLOR: #000000; 
 	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
 	FONT-SIZE: 9pt
