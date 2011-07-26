@@ -110,6 +110,11 @@ input[type=submit]:active {
 	cursor: pointer;
 }
 
+span#ctl00_spnCompare,
+span#ctl00_spnPipe1,
+span#ctl00_spnChange {
+	display: none;
+}
 body
 { 
     PADDING-LEFT: 0; 
@@ -360,7 +365,11 @@ body
 }
 .bodyLink 
 {
-	font-size: 10pt;
+	font-size: 10px;
+}
+.bodyLink img
+{
+	display: none;
 }
 .LabelDataCell 
 {
