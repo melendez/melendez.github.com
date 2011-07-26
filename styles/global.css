@@ -541,7 +541,7 @@ section.contact div.contact_info {
 /* NEIGHBORHOOD INFO ==========================================================*/
 iframe#neighborhoodinfo {
 	width: 800px;
-	height: auto;
+	height: 800px;
 	overflow: hidden;
 }
 /* /NEIGHBORHOOD INFO =========================================================*/
