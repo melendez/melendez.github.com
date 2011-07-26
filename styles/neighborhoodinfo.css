@@ -7,8 +7,9 @@ table tbody {
 	background-color: #e8e1cc;
 }
 table#Gctl00_tsTabControl_-1 td {
-	background-color: #123460;
+	background: #123460;
 	color: #e7e5e5;
+	-webkit-border-radius: 2px;
 }
 
 BODY 
