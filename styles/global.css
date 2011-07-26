@@ -538,6 +538,14 @@ section.contact div.contact_info {
 }
 /* /CONTACT ===================================================================*/
 
+/* NEIGHBORHOOD INFO ==========================================================*/
+iframe#neighborhoodinfo {
+	width: 800px;
+	height: auto;
+	overflow: hidden;
+}
+/* /NEIGHBORHOOD INFO =========================================================*/
+
 /* FOOTER ===================================================================== */
 footer.main {
 	clear: both;
