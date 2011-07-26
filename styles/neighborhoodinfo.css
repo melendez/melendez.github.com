@@ -218,9 +218,9 @@ A.dataLight:hover {
 }
 .MultiPage
 {
-	border-top: 6px solid #FFE84C;
-	margin-top: -2px;
-	width:648px;
+	border-top: none;
+	margin-top: 0;
+	width: 648px;
 }
 body
 {
