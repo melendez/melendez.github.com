@@ -6,7 +6,6 @@ table {
 table tbody {
 	background-color: #e8e1cc;
 }
-/*
 table#Gctl00_tsTabControl_-1 td,
 table#Gctl01_tsTabControl_-1 td {
 	background: #123460;
@@ -18,7 +17,6 @@ table#Gctl01_tsTabControl_-1 td:hover {
 	background: #0b203a;
 	color: #fff;
 }
-*/
 table#Gctl00_tsTabControl_-1 td img,
 table#Gctl01_tsTabControl_-1 td img  {
 	display: none;
@@ -34,10 +32,7 @@ input[type=text]:focus {
 	color: #555;
 }
 td#location_tdAddress {
-	border: 5px solid blue;
-}
-td.dataLight {
-		border: 5px solid blue;
+	border: none;
 }
 span#rpt_lblDisclaimer {
 	font-size: 10px;
@@ -99,19 +94,21 @@ BODY
 }
 
 A.toolbar:link {
-	background: #123460;
-	color: #e7e5e5;
-	-webkit-border-radius: 2px;
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
 }
 
 A.toolbar:visited {
-	background: #0b203a;
-	color: #fff;
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
 }
 
 A.toolbar:hover {
-	background: #0b203a;
-	color: #fff;
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
 }
 
 .dataDark {
@@ -243,12 +240,9 @@ A.dataLight:hover {
 
 .SelectedTab 
 { 
-	color: #2E404A;
-  background-color: #FFE84C;
-  background: transparent url(../../template40/images/blue/nav/bg_on.jpg) top left repeat-x;
-	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	background: #0b203a;
+	color: #fff;
 	font-weight: bold;
-  cursor: default;
 }
 .MultiPage
 {
