@@ -529,6 +529,10 @@ section.mortgagecalculator p.disclaimer {
 /* CONTACT ====================================================================*/
 section.contact div.contact_form {
 	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 50%;
+	width: 450px;
+	min-height: 450px;
+}
+section.contact div.contact_form {
 	float: left;
 	width: 450px;
 	min-height: 450px;

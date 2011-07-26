@@ -19,12 +19,6 @@ $(document).ready(function(){
 	updateClock();
 	setInterval('updateClock()', 60000 );
 	updateDate();
-	
-	//hide last td
-	setTimeout(function(){
-		$('table#Gctl00_tsTabControl_-1 td:last-child').hide();
-	},3000)
-
 
 });
 
