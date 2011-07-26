@@ -298,7 +298,7 @@ body
 	background-color: #e8e1cc;
   width:709px;
 }
-.Grid tr:nth-child(odd) {
+tr.Row {
 	background-color: #bbb !important;
 }
 .NSRReportNameLabel 
