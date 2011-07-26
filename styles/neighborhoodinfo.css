@@ -7,18 +7,18 @@ table tbody {
 	background-color: #e8e1cc;
 }
 table#Gctl00_tsTabControl_-1 td,
-table#ctl01_tsTabControl_0 td {
+table#Gctl01_tsTabControl_-1 td {
 	background: #123460;
 	color: #e7e5e5;
 	-webkit-border-radius: 2px;
 }
 table#Gctl00_tsTabControl_-1 td:hover,
-table#ctl01_tsTabControl_0 td:hover {
+table#Gctl01_tsTabControl_-1 td:hover {
 	background: #0b203a;
 	color: #fff;
 }
 table#Gctl00_tsTabControl_-1 td img,
-table#ctl01_tsTabControl_0 td img  {
+table#Gctl01_tsTabControl_-1 td img  {
 	display: none;
 }
 
