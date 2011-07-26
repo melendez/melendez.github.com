@@ -224,7 +224,7 @@ body
 .SectionHeader
 {
     background-color: #2E404A;
-    border: 1px solid #e8e1cc;
+    border-bottom: 1px solid #e8e1cc;
 	font-family: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
     font-size: 13px;
     font-weight: bold;
