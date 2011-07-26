@@ -369,7 +369,7 @@ body
 }
 .bodyLink img
 {
-	display: none;
+	display: none !important;
 }
 .LabelDataCell 
 {
