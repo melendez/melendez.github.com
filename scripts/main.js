@@ -60,6 +60,6 @@ function updateClock ( )
 }
 
 function updateDate(){
-	var date = new Date(); var day = date.getMonth()+1+'/'+date.getDay()+'/'+date.getFullYear().toString().slice(-2);
+	var date = new Date(); var day = date.getMonth()+1+'/'+date.getDate()+'/'+date.getFullYear().toString().slice(-2);
 	document.getElementById("day").firstChild.nodeValue = day;
 }
