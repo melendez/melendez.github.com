@@ -6,7 +6,7 @@ table {
 table tbody {
 	background-color: #e8e1cc;
 }
-table#Gctl00_tsTabControl_-1 td {
+div#ctl00_tsTabControl table td {
 	background: #123460;
 	color: #e7e5e5;
 	-webkit-border-radius: 2px;
