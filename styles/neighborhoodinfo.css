@@ -3,7 +3,7 @@
 table {
 	background-color: #e8e1cc;
 }
-table td {
+table#Gctl00_tsTabControl_-1 td {
 	background-color: #123460;
 	color: #e7e5e5;
 }
