@@ -1,0 +1,298 @@
+@charset 'utf-8';
+
+BODY 
+{ 
+    PADDING-LEFT: 20px; 
+    PADDING-TOP: 10px; 
+} 
+
+.channelTitle
+{
+    BACKGROUND-COLOR: #2E404A;     
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 14pt; 
+    FONT-WEIGHT: bold
+}
+
+.channelTitle10
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.reportTitle
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 11pt; 
+    FONT-WEIGHT: bold
+}
+
+.reportTitle10
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.toolbar
+{
+    BACKGROUND-COLOR: #f0f0f0; 
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+A.toolbar:link {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.toolbar:visited {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.toolbar:hover {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataDark {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #000000; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataDark A {
+	COLOR: #2E404A; 
+}
+
+A.dataDark:link {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataDark:visited {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataDark:hover {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #FFE84C; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataLight {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #000000; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataLight A {
+	COLOR: #2E404A; 
+}
+
+A.dataLight:link {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataLight:visited {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataLight:hover {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #FFE84C; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.sectionTitle
+{
+    BACKGROUND-COLOR: #2E404A;     
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 12pt; 
+    FONT-WEIGHT: bold
+}
+
+.bodyText10Bold
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.bodyText10
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt;    
+}
+
+.errorText10Bold
+{
+    color: Red;
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold    
+}
+
+.errorText10
+{
+    color: Red;
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+}
+
+.bodyText7
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 7pt;    
+}
+.DefaultTab 
+{
+  color: #FFE84C;
+  background-color: #2E404A;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.DefaultTabHover 
+{
+	color: #00CCFF;
+  background-color: #2E404A;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.SelectedTab 
+{ 
+	color: #2E404A;
+  background-color: #FFE84C;
+  background: transparent url(../../template40/images/blue/nav/bg_on.jpg) top left repeat-x;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: default;
+}
+.MultiPage
+{
+	border-top: 6px solid #FFE84C;
+	margin-top: -2px;
+	width:648px;
+}
+body
+{
+    background-color: red;
+}
+.SectionHeader
+{
+    background-color: #2E404A;
+    border-left: Solid 1px #2E404A;
+    border-right: Solid 1px #2E404A;
+    border-bottom: Solid 1px #2E404A;
+    border-top: Solid 1px #2E404A;
+	font-family: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFE84C;
+    text-decoration:none;
+    width:712px;
+}
+.bodyLink 
+{
+	font-size: 10pt;
+}
+.LabelDataCell 
+{
+	width:234px;
+}
+.DataCell 
+{
+	width:105px;
+}
+.Grid 
+{ 
+  width:709px;
+}
+.NSRReportNameLabel 
+{
+	width:712px;
+}
+.NSRLocationInfo 
+{
+	width:420px;
+}
+.NSRMapFrame 
+{
+	width:711px;
+	height:470px;
+}
+.NSRToolBar
+{
+	width:709px;
+	height:15px;
+}
+.CHMapFrame
+{
+	width:709px;
+	height:350px;
+}
+.CHStreet
+{
+	width:200px;
+}
+.CHIcon
+{
+	width:25px;
+}
+.CHRooms
+{
+	width:120px;
+}
+.CHSqFt
+{
+	width:70px;
+}
+.CHEstimate
+{
+	width:90px;
+}
+.CHSoldPrice
+{
+	width:90px;
+}
+.CHSoldDate
+{
+	width:90px;
+}
