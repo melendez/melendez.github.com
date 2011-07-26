@@ -223,7 +223,7 @@ A.dataDark:hover {
 }
 
 .dataLight {
-	background-color: #e8e1cc;
+	background-color: #fff;
     color: #3a3d3f;
    	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -342,7 +342,7 @@ A.dataLight:hover {
 	
 body
 {
-    background-color: #e8e1cc;
+    background-color: #fff;
 }
 .SectionHeader
 {
