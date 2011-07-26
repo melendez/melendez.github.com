@@ -531,7 +531,7 @@ section.contact div.contact_form {
 	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 50%;
 	float: left;
 	width: 450px;
-	height: 450px;
+	min-height: 450px;
 }
 section.contact div.contact_info {
 	width: 400px;
