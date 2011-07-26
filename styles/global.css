@@ -539,15 +539,15 @@ section.contact div.contact_info {
 }
 /* /CONTACT ===================================================================*/
 
-/* NEIGHBORHOOD INFO ==========================================================*/
-iframe#neighborhoodinfo {
+/* COMMUNITY REPORTS ==========================================================*/
+iframe#community_reports {
 	background: #e8e1cc url('/images/ajax_loader_light.gif') no-repeat 50% 65px;
 	border-top: 2px solid #bbb;
 	height: 2000px;
 	padding-top: 10px;
 	width: 800px;
 }
-/* /NEIGHBORHOOD INFO =========================================================*/
+/* /COMMUNITY REPORTS =========================================================*/
 
 /* FOOTER ===================================================================== */
 footer.main {
