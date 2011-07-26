@@ -45,6 +45,9 @@ BODY
     PADDING-TOP: 0; 
 } 
 
+form#Form1 div {
+	background-color: #e8e1cc !important;
+}
 .channelTitle
 {
     BACKGROUND-COLOR: #2E404A;     
