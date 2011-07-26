@@ -31,7 +31,8 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-span#rpt_lblDisclaimer {
+span#rpt_lblDisclaimer,
+td#rpt_tdDisclaimor {
 	font-size: 10px;
 	color: #999;
 }
