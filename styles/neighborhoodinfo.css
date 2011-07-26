@@ -219,11 +219,11 @@ A.dataLight:hover {
 }
 body
 {
-    background-color: e8e1cc;
+    background-color: #e8e1cc;
 }
 .SectionHeader
 {
-    background-color: #2E404A;
+    background-color: #e8e1cc;
     border-left: Solid 1px #2E404A;
     border-right: Solid 1px #2E404A;
     border-bottom: Solid 1px #2E404A;
