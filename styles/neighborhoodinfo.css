@@ -31,7 +31,9 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-
+td#location_tdAddress {
+	border: none;
+}
 BODY 
 { 
     PADDING-LEFT: 20px; 
