@@ -31,7 +31,7 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-td#location_tdAddress {
+table#location_tblAddress {
 	border: none;
 }
 BODY 
