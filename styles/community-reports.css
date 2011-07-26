@@ -252,7 +252,7 @@ A.dataLight:hover {
 }
 .MultiPage div
 {
-	  background-color: #e8e1cc;
+	  background-color: #e8e1cc !important;
 }
 	
 body
