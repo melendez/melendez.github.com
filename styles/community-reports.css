@@ -144,7 +144,7 @@ A.dataDark:hover {
 }
 
 .dataLight {
-	BACKGROUND-COLOR: #ffffff; 
+	BACKGROUND-COLOR: #ffffff !important; 
 	COLOR: #000000; 
 	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
 	FONT-SIZE: 9pt
