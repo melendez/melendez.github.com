@@ -38,6 +38,10 @@ span#rpt_lblDisclaimer {
 	font-size: 10px;
 	color: #999;
 }
+span#rpt_lblDisclaimer a {
+	color: #999;
+	text-decoration: underline;
+}
 BODY 
 { 
     PADDING-LEFT: 20px; 
