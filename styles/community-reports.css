@@ -115,7 +115,6 @@ body
     PADDING-LEFT: 0; 
     PADDING-TOP: 0; 
     color: #3a3d3f;
-   	text-shadow: 0 1px 0 rgba(255,255,255,.8);
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 12px;
 } 
@@ -187,10 +186,10 @@ A.toolbar:hover {
 }
 
 .dataDark {
-	BACKGROUND-COLOR: #f0f0f0; 
-	COLOR: #000000; 
-	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
-	FONT-SIZE: 9pt
+    color: #3a3d3f;
+   	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
 }
 
 .dataDark A {
@@ -220,9 +219,10 @@ A.dataDark:hover {
 
 .dataLight {
 	background-color: #e8e1cc;
-	COLOR: #000000; 
-	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
-	FONT-SIZE: 9pt
+    color: #3a3d3f;
+   	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
 }
 
 .dataLight A {
