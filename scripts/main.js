@@ -19,6 +19,9 @@ $(document).ready(function(){
 	updateClock();
 	setInterval('updateClock()', 60000 );
 	updateDate();
+	
+	//hide last td
+	$('table#Gctl00_tsTabControl_-1 td:last-child').hide();
 
 });
 
