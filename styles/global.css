@@ -540,7 +540,7 @@ section.contact div.contact_info {
 
 /* NEIGHBORHOOD INFO ==========================================================*/
 iframe#neighborhoodinfo {
-	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 25px;
+	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 50px;
 	border-top: 2px solid #bbb;
 	height: 2000px;
 	padding-top: 10px;
