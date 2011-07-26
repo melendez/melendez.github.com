@@ -31,9 +31,6 @@ input[type=text]:focus {
 table#location_tblAddress {
 	border: none;
 }
-body.outsideLoad div {
-	background-color: #e8e1cc;
-}
 BODY 
 { 
     PADDING-LEFT: 20px; 
