@@ -17,7 +17,8 @@ table#ctl01_tsTabControl_0 td:hover {
 	background: #0b203a;
 	color: #fff;
 }
-table#Gctl00_tsTabControl_-1 td img {
+table#Gctl00_tsTabControl_-1 td img,
+table#ctl01_tsTabControl_0 td img  {
 	display: none;
 }
 
