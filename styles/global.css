@@ -138,6 +138,7 @@ nav ul#nav li:hover > a {
 	-o-border-radius: 5px;
 	border-radius: 5px;
 	behavior: url('/plugins/PIE/PIE.htc');
+	font-weight: bold;
 }
 nav ul#nav ul {
 	display: none;

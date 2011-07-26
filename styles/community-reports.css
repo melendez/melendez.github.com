@@ -31,9 +31,6 @@ input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-td#location_tdAddress {
-	border: none;
-}
 span#rpt_lblDisclaimer {
 	font-size: 10px;
 	color: #999;
@@ -243,6 +240,9 @@ A.dataLight:hover {
 	background: #0b203a;
 	color: #fff;
 	font-weight: bold;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: default;
 }
 .MultiPage
 {
