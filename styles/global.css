@@ -540,8 +540,9 @@ section.contact div.contact_info {
 
 /* NEIGHBORHOOD INFO ==========================================================*/
 iframe#neighborhoodinfo {
+	border-top: 1px solid #ddd;
+	height: 2000px;
 	width: 800px;
-	height: 1700px;
 }
 /* /NEIGHBORHOOD INFO =========================================================*/
 
