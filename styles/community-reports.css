@@ -1,0 +1,346 @@
+@charset 'utf-8';
+
+table {
+	background-color: #e8e1cc;
+}
+table tbody {
+	background-color: #e8e1cc;
+}
+table#Gctl00_tsTabControl_-1 td,
+table#Gctl01_tsTabControl_-1 td {
+	background: #123460;
+	color: #e7e5e5;
+	-webkit-border-radius: 2px;
+}
+table#Gctl00_tsTabControl_-1 td:hover,
+table#Gctl01_tsTabControl_-1 td:hover {
+	background: #0b203a;
+	color: #fff;
+}
+table#Gctl00_tsTabControl_-1 td img,
+table#Gctl01_tsTabControl_-1 td img  {
+	display: none;
+}
+
+input[type=text]{
+	border: 3px solid #ccc;
+	background-color: #fff;
+	color: #999;
+}
+input[type=text]:focus {
+	background-color: #edfdff;
+	color: #555;
+}
+table#location_tblAddress {
+	border: none;
+}
+span#rpt_lblDisclaimer {
+	font-size: 10px;
+	color: #999;
+}
+span#rpt_lblDisclaimer a {
+	color: #999;
+	text-decoration: underline;
+}
+BODY 
+{ 
+    PADDING-LEFT: 20px; 
+    PADDING-TOP: 10px; 
+} 
+
+.channelTitle
+{
+    BACKGROUND-COLOR: #2E404A;     
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 14pt; 
+    FONT-WEIGHT: bold
+}
+
+.channelTitle10
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.reportTitle
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 11pt; 
+    FONT-WEIGHT: bold
+}
+
+.reportTitle10
+{
+    BACKGROUND-COLOR: #2E404A; 
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.toolbar
+{
+    BACKGROUND-COLOR: #f0f0f0; 
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+A.toolbar:link {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.toolbar:visited {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.toolbar:hover {
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataDark {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #000000; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataDark A {
+	COLOR: #2E404A; 
+}
+
+A.dataDark:link {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataDark:visited {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataDark:hover {
+	BACKGROUND-COLOR: #f0f0f0; 
+	COLOR: #FFE84C; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataLight {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #000000; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.dataLight A {
+	COLOR: #2E404A; 
+}
+
+A.dataLight:link {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataLight:visited {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #2E404A; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+A.dataLight:hover {
+	BACKGROUND-COLOR: #ffffff; 
+	COLOR: #FFE84C; 
+	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+	FONT-SIZE: 9pt
+}
+
+.sectionTitle
+{
+    BACKGROUND-COLOR: #2E404A;     
+    COLOR: #FFE84C; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 12pt; 
+    FONT-WEIGHT: bold
+}
+
+.bodyText10Bold
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold
+}
+
+.bodyText10
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt;    
+}
+
+.errorText10Bold
+{
+    color: Red;
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+    FONT-WEIGHT: bold    
+}
+
+.errorText10
+{
+    color: Red;
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 10pt; 
+}
+
+.bodyText7
+{
+    COLOR: #000000; 
+    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
+    FONT-SIZE: 7pt;    
+}
+.DefaultTab 
+{
+  color: #FFE84C;
+  background-color: #2E404A;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.DefaultTabHover 
+{
+	color: #00CCFF;
+  background-color: #2E404A;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.SelectedTab 
+{ 
+	color: #2E404A;
+  background-color: #FFE84C;
+  background: transparent url(../../template40/images/blue/nav/bg_on.jpg) top left repeat-x;
+	font: 75% tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+	font-weight: bold;
+  cursor: default;
+}
+.MultiPage
+{
+	border-top: none;
+	margin-top: 0;
+	width: 648px;
+}
+body
+{
+    background-color: #e8e1cc;
+}
+.SectionHeader
+{
+    background-color: #2E404A;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    color: 000;
+	font-family: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration:none;
+    width:712px;
+}
+.SectionHeader td
+{
+    background-color: #e8e1cc;
+   
+}
+.bodyLink 
+{
+	font-size: 10pt;
+}
+.LabelDataCell 
+{
+	width:234px;
+}
+.DataCell 
+{
+	width:105px;
+}
+.Grid 
+{ 
+	background-color: #e8e1cc;
+  width:709px;
+}
+.NSRReportNameLabel 
+{
+	width:712px;
+}
+.NSRLocationInfo 
+{
+	width:420px;
+}
+.NSRMapFrame 
+{
+	width:711px;
+	height:470px;
+}
+.NSRToolBar
+{
+	width:709px;
+	height:15px;
+}
+.CHMapFrame
+{
+	width:709px;
+	height:350px;
+}
+.CHStreet
+{
+	width:200px;
+}
+.CHIcon
+{
+	width:25px;
+}
+.CHRooms
+{
+	width:120px;
+}
+.CHSqFt
+{
+	width:70px;
+}
+.CHEstimate
+{
+	width:90px;
+}
+.CHSoldPrice
+{
+	width:90px;
+}
+.CHSoldDate
+{
+	width:90px;
+}
