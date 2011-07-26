@@ -149,9 +149,6 @@ A.dataDark:hover {
 	FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
 	FONT-SIZE: 9pt
 }
-.dataLight > img { 
-	background-color: #fff !important;
-}
 
 .dataLight A {
 	COLOR: #2E404A; 
