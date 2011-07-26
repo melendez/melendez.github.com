@@ -269,9 +269,10 @@ A.dataLight:hover {
 
 .bodyText10
 {
-    COLOR: #000000; 
-    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
-    FONT-SIZE: 10pt;    
+    color: #3a3d3f;
+   	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
 }
 
 .errorText10Bold
@@ -291,9 +292,10 @@ A.dataLight:hover {
 
 .bodyText7
 {
-    COLOR: #000000; 
-    FONT-FAMILY: tahoma, trebuchet, "trebuchet ms", verdana, sans-serif; 
-    FONT-SIZE: 7pt;    
+    color: #3a3d3f;
+   	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 10px; 
 }
 .DefaultTab 
 {
