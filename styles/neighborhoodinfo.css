@@ -11,6 +11,13 @@ table#Gctl00_tsTabControl_-1 td {
 	color: #e7e5e5;
 	-webkit-border-radius: 2px;
 }
+table#Gctl00_tsTabControl_-1 td:last {
+	display: none;
+}
+table#Gctl00_tsTabControl_-1 td:hover {
+	background: #0b203a;
+	color: #fff;
+}
 table#Gctl00_tsTabControl_-1 td img {
 	display: none;
 }
