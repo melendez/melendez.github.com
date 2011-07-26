@@ -6,12 +6,12 @@ table {
 table tbody {
 	background-color: #e8e1cc;
 }
-div#ctl00_tsTabControl table td {
+table#ctl01_tsTabControl_0 td {
 	background: #123460;
 	color: #e7e5e5;
 	-webkit-border-radius: 2px;
 }
-table#Gctl00_tsTabControl_-1 td:last {
+table#Gctl00_tsTabControl_-1 td:last-child {
 	display: none;
 }
 table#Gctl00_tsTabControl_-1 td:hover {
@@ -33,6 +33,9 @@ input[type=text]:focus {
 }
 table#location_tblAddress {
 	border: none;
+}
+body.outsideLoad {
+	background-color: #e8e1cc;
 }
 BODY 
 { 
