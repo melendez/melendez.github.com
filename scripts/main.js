@@ -21,7 +21,10 @@ $(document).ready(function(){
 	updateDate();
 	
 	//hide last td
-	$('table#Gctl00_tsTabControl_-1 td:last-child').hide();
+	setTimeout(function(){
+		$('table#Gctl00_tsTabControl_-1 td:last-child').hide();
+	},3000)
+
 
 });
 
