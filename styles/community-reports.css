@@ -330,14 +330,14 @@ A.dataLight:hover {
 }
 .MultiPage
 {
-	   background-color: #e8e1cc;
+	   background-color: #fff;
 	border-top: none;
 	margin-top: 0;
 	width: 648px;
 }
 .MultiPage div
 {
-	  background-color: #e8e1cc !important;
+	  background-color: #fff !important;
 }
 	
 body
@@ -360,7 +360,7 @@ body
 }
 .SectionHeader td
 {
-    background-color: #e8e1cc;
+    background-color: #fff;
    
 }
 .bodyLink 
@@ -381,7 +381,7 @@ body
 }
 .Grid 
 { 
-	background-color: #e8e1cc;
+	background-color: #fff;
   width:709px;
 }
 tr.Row {
