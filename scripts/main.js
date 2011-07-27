@@ -19,6 +19,8 @@ $(document).ready(function(){
 	updateClock();
 	setInterval('updateClock()', 60000 );
 	updateDate();
+	
+	$('iframe#community_reports').tinyscrollbar();
 
 });
 
