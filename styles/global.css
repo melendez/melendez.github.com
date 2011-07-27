@@ -543,7 +543,7 @@ section.contact div.contact_info {
 iframe#community_reports {
 	background: #e8e1cc url('/images/ajax_loader_light.gif') no-repeat 50% 65px;
 	border-top: 2px solid #bbb;
-	height: 2000px;
+	height: 100px;
 	padding-top: 10px;
 	width: 920px;
 }
