@@ -20,7 +20,7 @@ $(document).ready(function(){
 	setInterval('updateClock()', 60000 );
 	updateDate();
 	
-	$('iframe#community_reports').hide();
+	$('iframe#community_reports').tinyscrollbar();
 
 });
 
