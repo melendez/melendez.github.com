@@ -548,7 +548,7 @@ iframe#community_reports {
 	width: 920px;
 }
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 10px;
     height: 25px;
 }
 /* /COMMUNITY REPORTS =========================================================*/
