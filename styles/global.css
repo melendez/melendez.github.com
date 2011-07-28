@@ -551,6 +551,16 @@ iframe#community_reports {
     width: 10px;
     height: 25px;
 }
+::-webkit-scrollbar-track-piece  {
+background-color: #3b3b3b;
+-webkit-border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 50px;
+background-color: #666;
+border: 1px solid #eee;
+-webkit-border-radius: 6px;
+}
 /* /COMMUNITY REPORTS =========================================================*/
 
 /* FOOTER ===================================================================== */
