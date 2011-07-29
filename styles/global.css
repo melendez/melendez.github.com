@@ -547,26 +547,6 @@ iframe#community_reports {
 	padding-top: 10px;
 	width: 920px;
 }
-::-webkit-scrollbar {
-width: 10px;
-height: 10px;
-display: none; 
-}
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment  {
-height: 30px;
-background-color: transparent;
-}
-::-webkit-scrollbar-track-piece  {
-background-color: #3b3b3b;
--webkit-border-radius: 16px;
-}
-::-webkit-scrollbar-thumb:vertical {
-height: 50px;
-background-color: #666;
-border: 1px solid #eee;
--webkit-border-radius: 6px;
-}
 /* /COMMUNITY REPORTS =========================================================*/
 
 /* FOOTER ===================================================================== */
