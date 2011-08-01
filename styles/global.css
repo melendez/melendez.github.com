@@ -478,16 +478,16 @@ form.loan {
 form.loan label {
 	width: 100px;
 }
+form.loan div {
+	height: 50px;
+	width: 350px;
+}
 form.property {
 	float: right;
 	width: 450px;
 }
 form.property label {
 	width: 100px;
-}
-form.loan div {
-	height: 50px;
-	width: 350px;
 }
 form.property div {
 	height: 50px;
@@ -542,7 +542,7 @@ form.property input[type=text].total  {
 	background-color: #eee;
 	color: #8aa730;
 }
-form.property select{
+form.property select {
 	display: block;
 	float: left;
 	margin-left: 10px;
