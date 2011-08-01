@@ -103,12 +103,14 @@ header {
 	padding-top: 15px;
 	width: 100%;
 }
-header img.header_logo {
+a.header_logo {
+	background: url('/images/logo.png') no-repeat 0 0;
 	float: left;
 	height: 122px;
 	width: 331px;
 }
-header img.facebook_button {
+a.facebook_button {
+	background: url('/images/facebook_button.png') no-repeat 0 0;
 	float: right;
 	height: 42px;
 	margin: 75px 10px 0 0;
