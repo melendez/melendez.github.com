@@ -2,56 +2,56 @@
 layout: default
 title: Resources
 ---
-<section class='content resources'>
-	<h1>Real Estate Resources</h1>
-	<div class='left'>
-		<a href='http://www.makinghomeaffordable.gov/'><img src='/images/mha.png' alt='' /></a>
-		<p>Information about refinancing and loan modification options available under the Home Affordable Refinance Program.</p>
-		
-		<a href='http://www.greatschools.org/'><img src='/images/gs.png' alt='' /></a>
-		<p>Compare K-12 school ratings nationwide to find the best schools. View parent ratings, reviews and test scores and choose the right preschool, elementary, middle or high school for public or private education.</p>
-	</div>
+<h1>Real Estate Resources</h1>
+
+<div class='resources_left_column'>
+	<a href='http://www.makinghomeaffordable.gov/'><img src='/images/mha.png' alt='' /></a>
+	<p>Information about refinancing and loan modification options available under the Home Affordable Refinance Program.</p>
 	
-	<div class='right'>
-		<a href='http://www.houselogic.com/'><img src='/images/hl.gif' alt='' /></a>
-		<p>Houselogic is... Everything you need to protect, maintain, and enhance the value of your home.</p>
+	<a href='http://www.greatschools.org/'><img src='/images/gs.png' alt='' /></a>
+	<p>Compare K-12 school ratings nationwide to find the best schools. View parent ratings, reviews and test scores and choose the right preschool, elementary, middle or high school for public or private education.</p>
+</div>
+	
+<div class='resources_right_column'>
+	<a href='http://www.houselogic.com/'><img src='/images/hl.gif' alt='' /></a>
+	<p>Houselogic is... Everything you need to protect, maintain, and enhance the value of your home.</p>
+	
+	<div id='news_feed'>loading feed...</div>
+	
+	<script>
+		var feedcontainer = document.getElementById('news_feed');
+		var feedurl = 'http://www.houselogic.com/news/rss/';
+		var feedlimit = 5;
+		var rssoutput = '<strong>Latest HouseLogic News:</strong><ul>';
 		
-		<div id='feed'>loading feed...</div>
+		function rssfeedsetup() {
+			var feedpointer = new google.feeds.Feed(feedurl);
+			feedpointer.setNumEntries(feedlimit);
+			feedpointer.load(displayfeed);
+		}
 		
-		<script>
-			var feedcontainer = document.getElementById('feed');
-			var feedurl = 'http://www.houselogic.com/news/rss/';
-			var feedlimit = 5;
-			var rssoutput = '<strong>Latest HouseLogic News:</strong><ul>';
-			
-			function rssfeedsetup() {
-				var feedpointer = new google.feeds.Feed(feedurl);
-				feedpointer.setNumEntries(feedlimit);
-				feedpointer.load(displayfeed);
-			}
-			
-			function displayfeed(result){
-				if(!result.error){
-					var thefeeds = result.feed.entries;
-					for(var i=0; i < thefeeds.length; i++){
-						var date = new Date(thefeeds[i].publishedDate);
-						var year = date.getFullYear();
-						var month = date.getMonth() + 1;
-						var day = date.getDate();
-						var postedDate = month+'/'+day+'/'+year;
-						
-						rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a><p>"+thefeeds[i].content+" <span class='date'>"+postedDate+"</span></p></li>";
-					}
-					rssoutput += "</ul><a class='more' href='http://www.houselogic.com/news/'>more &#187;</a>";
-					feedcontainer.innerHTML = rssoutput;
+		function displayfeed(result){
+			if(!result.error){
+				var thefeeds = result.feed.entries;
+				for(var i=0; i < thefeeds.length; i++){
+					var date = new Date(thefeeds[i].publishedDate);
+					var year = date.getFullYear();
+					var month = date.getMonth() + 1;
+					var day = date.getDate();
+					var postedDate = month+'/'+day+'/'+year;
+					
+					rssoutput += "<li>&#187; <a href='"+thefeeds[i].link+"'>"+thefeeds[i].title+"</a><p>"+thefeeds[i].content+" <span class='news_feed_date'>"+postedDate+"</span></p></li>";
 				}
-				else {
-					document.getElementById('feed').innerHTML = '[Error fetching feeds]';
-				}
+				rssoutput += "</ul><a class='more' href='http://www.houselogic.com/news/'>more &#187;</a>";
+				feedcontainer.innerHTML = rssoutput;
 			}
-			
-			window.onload = function(){
-				rssfeedsetup();
+			else {
+				document.getElementById('news_feed').innerHTML = '[Error fetching feeds]';
 			}
-		</script>
-	</div>
+		}
+		
+		window.onload = function(){
+			rssfeedsetup();
+		}
+	</script>
+</div>
