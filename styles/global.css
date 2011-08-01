@@ -269,8 +269,8 @@ section.main_content {
 	padding: 30px 20px 40px 20px;
 }
 section.main_content img {
-	height: auto;
 	max-width: 100%;
+	height: auto;
 	margin-bottom: 5px;
 	padding: 4px;
 	background-color: #eee;
@@ -279,6 +279,7 @@ section.main_content img {
 	-moz-transition: background-color linear .4s;
 	-o-transition: background-color linear .4s;
 	transition: background-color linear .4s;
+}
 }
 p.first {
 	font-size: 22px;
@@ -417,19 +418,6 @@ div.agent license p {
 div.resources_left_column {
 	float: left;
 	width: 450px;
-}
-div.resources_left_column img,
-div.resources_right_column img {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 5px;
-	padding: 4px;
-	background-color: #eee;
-	border: 1px solid #ccc;
-	-webkit-transition: background-color linear .4s;
-	-moz-transition: background-color linear .4s;
-	-o-transition: background-color linear .4s;
-	transition: background-color linear .4s;
 }
 section.resources img:hover,
 section.hudsearch img:hover {

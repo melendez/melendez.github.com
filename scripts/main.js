@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	// check pathname and add selected class to nav link
+	// Check pathname and add selected class to nav link
 	var pathname = window.location.pathname;
 	$('ul.nav_main li a').each(function(){
 		if($(this).attr('href') == pathname){
@@ -8,6 +8,7 @@ $(document).ready(function(){
 		}
 	});	
 	
+	// On click show sub nav [NOT WORKING]
 	$('ul.nav_main li').click(function(){
 		$(this).find('ul.subnav').slideDown('fast').show();
 		},
@@ -16,20 +17,25 @@ $(document).ready(function(){
 		}
 	);
 	
+	// Update clock
 	updateClock();
 	setInterval('updateClock()', 60000 );
 	updateDate();
 
 });
 
+
+
 $(window).load(function(){
 	
-	// initialize nivo slider
+	// Initialize nivo slider
 	$('div.main_slider').nivoSlider({
 		pauseTime: 5000
 	});
 	
 });
+
+
 
 function updateClock ( )
 {
@@ -59,6 +65,8 @@ function updateClock ( )
   document.getElementById("clock").firstChild.nodeValue = currentTimeString;
 }
 
+
+// Show the date
 function updateDate(){
 	var date = new Date(); var day = date.getMonth()+1+'/'+date.getDate()+'/'+date.getFullYear().toString().slice(-2);
 	document.getElementById("day").firstChild.nodeValue = day;
