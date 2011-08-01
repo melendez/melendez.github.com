@@ -475,9 +475,6 @@ form.loan {
 	float: left;
 	width: 350px;
 }
-form.loan label {
-	width: 100px;
-}
 form.loan div {
 	height: 50px;
 	width: 350px;
@@ -485,9 +482,6 @@ form.loan div {
 form.property {
 	float: right;
 	width: 450px;
-}
-form.property label {
-	width: 100px;
 }
 form.property div {
 	height: 50px;
@@ -517,6 +511,9 @@ form.property label {
 	font-size: 14px;
 	text-align: right;
 	width: 200px;
+}
+form.loan label {
+	width: 100px;
 }
 label.small {
 	font-size: 12px;
