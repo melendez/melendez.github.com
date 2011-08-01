@@ -19,12 +19,6 @@ $(document).ready(function(){
 	updateClock();
 	setInterval('updateClock()', 60000 );
 	updateDate();
-	
-	// enable scrolling on iframe
-	$('iframe#community5_reports').bind('mousewheel', function(ev, delta) {
-		var scrollTop = $(this).scrollTop();
-		$(this).scrollTop(scrollTop-Math.round(delta));
-	})
 
 });
 
