@@ -649,7 +649,7 @@ p.copyright a:hover {
 	text-decoration: underline;
 }
 span.design_by {
-	display: block;
+	display: none;
 	font-size: 8px;
 }
 div.creditation {
