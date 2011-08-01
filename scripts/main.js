@@ -17,6 +17,12 @@ $(document).ready(function(){
 		}
 	);
 	
+	// Open external links in new window
+	$('a[href^=http]').live('click', function(){
+		window.open(this.href);
+		return false;
+	});
+	
 	// Update clock
 	updateClock();
 	setInterval('updateClock()', 60000 );
