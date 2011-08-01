@@ -60,6 +60,9 @@ h4 {
 h6 {
 	font-size: 22px;
 }
+hr {
+	clear: both;
+}
 p {
 	font-size: 16px;
 	line-height: 120%;
@@ -468,116 +471,115 @@ span.news_feed_date {
 /* ==============================================================================
 	CALCULATORS
 ================================================================================= */
-section.mortgagecalculator h6 {
-	margin-bottom: 10px;
-}
-section.mortgagecalculator form.loan {
+form.loan {
 	float: left;
 	width: 350px;
 }
-section.mortgagecalculator form.loan label {
+form.loan label {
 	width: 100px;
 }
-section.mortgagecalculator form.property {
+form.property {
 	float: right;
 	width: 450px;
 }
-section.mortgagecalculator form div {
-	width: 350px;
+form.loan div {
 	height: 50px;
+	width: 350px;
 }
-section.mortgagecalculator form.property div {
+form.property div {
+	height: 50px;
 	width: 450px;
 }
-section.mortgagecalculator div.error {
+form.loan div.error,
+form.property div.error {
+	background-color: #fffcfc;
+	border: 2px solid #e0454d;
+	color: #e0454d;
 	display: none;
-	width: 315px;
+	font-size: 14px;
 	height: auto;
 	margin-bottom: 10px;
 	padding: 5px;
 	text-align: center;
-	font-size: 14px;
-	border: 2px solid #e0454d;
-	background-color: #fffcfc;
-	color: #e0454d;
+	width: 315px;
 }
-section.mortgagecalculator form.property div.error {
+form.property div.error {
 	width: 415px;
 }
-section.mortgagecalculator label {
+form.loan label,
+form.property label {
+	color: #555;
 	display: block;
 	float: left;
-	width: 200px;
-	text-align: right;
 	font-size: 14px;
-	color: #555;
+	text-align: right;
+	width: 200px;
 }
-section.mortgagecalculator label.small {
+label.small {
 	font-size: 12px;
 }
-section.mortgagecalculator input[type=text] {
+form.loan input[type=text],
+form.property input[type=text] {
+	background-color: #fff;
+	border: 3px solid #ccc;
+	color: #999;
 	display: block;
 	float: left;
 	margin-left: 10px;
 	padding: 5px;
 	width: 200px;
-	border: 3px solid #ccc;
-	background-color: #fff;
-	color: #999;
 }
-section.mortgagecalculator input[type=text]:focus {
+form.loan input[type=text]:focus,
+form.property input[type=text]:focus {
 	background-color: #edfdff;
 	color: #555;
 }
-section.mortgagecalculator input[type=text].total {
+form.loan input[type=text].total,
+form.property input[type=text].total  {
 	background-color: #eee;
 	color: #8aa730;
 }
-section.mortgagecalculator select {
+form.property select{
 	display: block;
 	float: left;
-	width: 200px;
 	margin-left: 10px;
 	padding: 5px;
+	width: 200px;
 }
-section.mortgagecalculator input[type=button],
-section.mortgagecalculator input[type=submit] {
-	float: right;
-	padding: 7px;
-	text-transform: uppercase;
-	font-family: Arial, sans-serif;
-	font-weight: bold;
-	font-size: 13px;
+input[type=button].calculator_button,
+input[type=submit].calculator_button {
 	background-color: #eee;
 	border: 3px solid #ccc;
-	background-color: #eee;
 	color: #555;
-	-webkit-transition: color linear .3s;
-	-moz-transition: color linear .3s;
-	-o-transition: color linear .3s;
-	transition: color linear .3s;
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 7px;
+	text-transform: uppercase;
+	transition: color linear .1s;
+	-moz-transition: color linear .1s;
+	-o-transition: color linear .1s;
+	-webkit-transition: color linear .1s;
 }
-section.mortgagecalculator input[type=button]:hover,
-section.mortgagecalculator input[type=submit]:hover {
+input[type=button].calculator_button:hover,
+input[type=submit].calculator_button:hover {
 	cursor: pointer;
 }
-section.mortgagecalculator input[type=button].calculate {
+input[type=button].calculator_button.calculate {
 	margin-right: 25px;
 }
-section.mortgagecalculator input[type=button].calculate:hover {
+input[type=button].calculator_button.calculate:hover {
 	color: #677c26;
 }
-section.mortgagecalculator input[type=button].clear:hover {
+input[type=button].calculator_button.clear:hover {
 	color: #84101a;
 }
-section.mortgagecalculator hr {
+p.calculator_disclaimer {
 	clear: both;
-}
-section.mortgagecalculator p.disclaimer {
-	clear: both;
-	margin-top: 15px;
 	font-size: 10px;
 	color: #999;
+	margin-top: 15px;
 }
 /* ==============================================================================
 	END CALCULATORS
