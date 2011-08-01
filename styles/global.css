@@ -482,6 +482,9 @@ form.property {
 	float: right;
 	width: 450px;
 }
+form.property label {
+	width: 100px;
+}
 form.loan div {
 	height: 50px;
 	width: 350px;
