@@ -515,6 +515,9 @@ form.property label {
 form.loan label {
 	width: 100px;
 }
+form.property label.price_home {
+	font-size: 12px;
+}
 label.small {
 	font-size: 12px;
 }
