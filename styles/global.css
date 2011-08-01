@@ -280,16 +280,6 @@ section.main_content img {
 	-o-transition: background-color linear .4s;
 	transition: background-color linear .4s;
 }
-}
-p.first {
-	font-size: 22px;
-}
-p.second {
-	font-size: 20px;
-}
-p.third {
-	font-size: 18px;
-}
 /* ==============================================================================
 	END MAIN CONTENT
 ================================================================================= */
