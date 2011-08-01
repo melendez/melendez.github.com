@@ -100,6 +100,7 @@ p a:hover {
 header {
 	background: url('/images/bg_header.png') repeat-x 0 0;
 	height: 130px;
+	padding-top: 15px;
 	width: 100%;
 }
 header img.header_logo {
@@ -110,7 +111,7 @@ header img.header_logo {
 header img.facebook_button {
 	float: right;
 	height: auto;
-	margin: 50px 10px 0 0;
+	margin: 70px 10px 0 0;
 	width: 90px;
 }
 /* ==============================================================================
