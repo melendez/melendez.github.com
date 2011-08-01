@@ -20,7 +20,11 @@ $(document).ready(function(){
 	setInterval('updateClock()', 60000 );
 	updateDate();
 	
-	$('iframe#community_reports').jScrollPane();
+	// enable scrolling on iframe
+	$('iframe#community_reports').bind('mousewheel', function(ev, delta) {
+		var scrollTop = $(this).scrollTop();
+		$(this).scrollTop(scrollTop-Math.round(delta));
+	})
 
 });
 

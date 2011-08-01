@@ -545,6 +545,7 @@ iframe#community_reports {
 	border-top: 2px solid #bbb;
 	height: 1000px;
 	padding-top: 10px;
+	overflow: hidden;
 	width: 920px;
 }
 /* /COMMUNITY REPORTS =========================================================*/
