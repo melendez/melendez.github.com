@@ -100,14 +100,12 @@ p a:hover {
 header {
 	background: url('/images/bg_header.png') repeat-x 0 0;
 	height: 195px;
-	overflow: hidden;
 	width: 100%;
 }
 header img.header_logo {
 	float: left;
-	height: 267px;
-	margin-top: -15px;
-	width: 400px;
+	height: 122px;
+	width: 331px;
 }
 header img.facebook_button {
 	float: right;
