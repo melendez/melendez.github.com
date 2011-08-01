@@ -110,8 +110,8 @@ header img.header_logo {
 }
 header img.facebook_button {
 	float: right;
-	height: auto;
-	margin: 70px 10px 0 0;
+	height: 42px;
+	margin: 75px 10px 0 0;
 	width: 90px;
 }
 /* ==============================================================================
