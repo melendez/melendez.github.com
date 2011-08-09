@@ -23,6 +23,7 @@
 	    <concat destfile="styles/global.con.css" force="no">
 	    	<fileset dir="styles" includes="reset.css" />
 	    	<fileset dir="styles" includes="global.css" />
+	    	<fileset dir="styles" includes="wufoo.css" />
 	    	<fileset dir="plugins/nivo-slider/" includes="nivo-slider.css" />
 	    </concat>
 	    <yuicompressor warn="false" charset="UTF-8" fromdir="styles" todir="styles" csssuffix=".min.css">

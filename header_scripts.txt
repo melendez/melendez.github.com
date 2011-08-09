@@ -1,6 +1,7 @@
 //stylesheets
 <link href='/styles/reset.css' rel='stylesheet' />
-<link href='/styles/plugins/nivo-slider/nivo-slider.css' rel='stylesheet' />
+<link href='/plugins/nivo-slider/nivo-slider.css' rel='stylesheet' />
+<link href='/styles/wufoo.css' rel='stylesheet' />
 <link href='/styles/global.css' rel='stylesheet' />
 
 //compressed
@@ -13,8 +14,10 @@
 <script src='/plugins/calculator/loancalculator.js'></script>
 <script src='/plugins/calculator/propertypricecalculator.js'></script>
 <script src='/scripts/main.js'></script>
-<script src='/http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script>
+<script src='http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script>
+<script>google.load('feeds','1');</script>
 
 //compressed
 <script src='/scripts/main.min.js'></script>
-<script src='/http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script>
+<script src=<script src='http://www.google.com/jsapi?key=ABQIAAAAaPkBW3vge4odDUBtbC4e-xRutoCKHFl1g3ES_cmPf4BxqcVG3BR7pbnwzjWgqiKDxSEqSvzSUG2pww'></script>
+<script>google.load('feeds','1');</script>

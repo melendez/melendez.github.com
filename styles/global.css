@@ -38,7 +38,7 @@ body {
 div.clear {
 	clear: both;
 }
-div.main_wrap {
+div.main-wrap {
 	margin: 0 auto;
 	width: 960px;
 }
@@ -103,13 +103,13 @@ header {
 	padding-top: 15px;
 	width: 100%;
 }
-a.header_logo {
+a.header-logo {
 	background: url('/images/logo.png') no-repeat 0 0;
 	float: left;
 	height: 122px;
 	width: 331px;
 }
-a.facebook_button {
+a.facebook-button {
 	background: url('/images/facebook_button.png') no-repeat 0 0;
 	float: right;
 	height: 42px;
@@ -130,7 +130,7 @@ nav {
 	height: 40px;
 	width: 960px;
 }
-ul.main_nav {
+ul.main-nav {
 	background: #123460 url('/images/gradient.png') repeat-x 0 -110px; /* brown: #724129 */
 	behavior: url('/plugins/PIE/PIE.htc');
 	border-top-left-radius: 10px;
@@ -145,10 +145,10 @@ ul.main_nav {
 	text-transform: uppercase;
 	width: 950px;
 }
-ul.main_nav li {
+ul.main-nav li {
 	display: inline;
 }
-ul.main_nav li a {
+ul.main-nav li a {
 	background: rgba(11,32,58,.2);
 	behavior: url('/plugins/PIE/PIE.htc');
 	border: 1px solid rgba(56,85,96,.8);
@@ -170,8 +170,8 @@ ul.main_nav li a {
 	-webkit-transition: background-color linear .1s, color linear .1s;
 }
 /* ORIGINAL
-ul.main_nav li > a.selected, 
-ul.main_nav li:hover > a {
+ul.main-nav li > a.selected, 
+ul.main-nav li:hover > a {
 	background: #123460 url('/images/gradient.png') repeat-x 0 -45px; /* brown: #724129 *//*
 	color: #444;
 	border-radius: 5px;
@@ -186,8 +186,8 @@ ul.main_nav li:hover > a {
 	behavior: url('/plugins/PIE/PIE.htc');
 }
 */
-ul.main_nav li > a.selected, 
-ul.main_nav li:hover > a {
+ul.main-nav li > a.selected, 
+ul.main-nav li:hover > a {
 	background: #0b203a !important;
 	behavior: url('/plugins/PIE/PIE.htc');
 	border: 1px solid #385160 !important;
@@ -198,12 +198,12 @@ ul.main_nav li:hover > a {
   	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0,0,0,.5);	
 }
-ul.main_nav ul {
+ul.main-nav ul {
 	display: none;
 	padding-bottom: 5px;
 	z-index: 10000;
 }
-ul.main_nav li:hover > ul {
+ul.main-nav li:hover > ul {
 	background-color: #253d59; /* brown: #724129; */
 	behavior: url('/plugins/PIE/PIE.htc');
 	border-bottom-left-radius: 10px;
@@ -218,15 +218,15 @@ ul.main_nav li:hover > ul {
 	position: absolute;
 	width: 960px;
 }
-ul.main_nav li:hover > ul li a {
+ul.main-nav li:hover > ul li a {
 	background: #355070;
 	border: none;
 	color: #fff;
 	float: left;
 	padding: 0 10px;
 }
-ul.main_nav li:hover > ul li a.selected,
-ul.main_nav li:hover > ul li a:hover {
+ul.main-nav li:hover > ul li a.selected,
+ul.main-nav li:hover > ul li a:hover {
 	background: #38587c !important; /* brown: #3d2418; */
 	behavior: url('/plugins/PIE/PIE.htc');
 	border-radius: 5px;
@@ -241,7 +241,7 @@ ul.main_nav li:hover > ul li a:hover {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0,0,0, 1);
 }
-ul.main_nav li#theDate {
+ul.main-nav li#theDate {
 	color: #e7e5e5;
 	float: right;
 	font-size: 10px;
@@ -258,7 +258,7 @@ ul.main_nav li#theDate {
 /* ==============================================================================
 	MAIN CONTENT
 ================================================================================= */
-section.main_content {
+section.main-content {
 	background-color: #e8e1cc;
 	behavior: url('/plugins/PIE/PIE.htc');
 	border-bottom-left-radius: 10px;
@@ -269,7 +269,7 @@ section.main_content {
 	-webkit-border-bottom-right-radius: 10px;
 	padding: 30px 20px 40px 20px;
 }
-section.main_content img {
+section.main-content img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 5px;
@@ -290,7 +290,7 @@ section.main_content img {
 /* ==============================================================================
 	MAIN NIVO SLIDER
 ================================================================================= */
-div.main_slider {
+div.main-slider {
 	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 50%;
 	border: 7px solid #b7b09f;
 	left: -15px;
@@ -301,7 +301,7 @@ div.main_slider {
     position: relative;
     width: 930px;
 }
-div.main_slider img {
+div.main-slider img {
 	display: none;
 }
 
@@ -375,15 +375,15 @@ a.nivo-prevNav {
 /* ==============================================================================
 	ABOUT
 ================================================================================= */
-div.agent_container {
+div.agent-container {
 	padding-bottom: 25px;
 }
-div.agent_photo_container {
+div.agent-photo-container {
 	height: 138px;
 	padding-bottom: 15px;
 	width: 100%;
 }
-div.agent_photo_container img {
+div.agent-photo-container img {
 	border: 5px solid #b7b09f;
 	float: left;
 	height: 128px;
@@ -391,7 +391,7 @@ div.agent_photo_container img {
 	min-width: 125px;
 	width: auto;
 }
-div.agent_license {
+div.agent-license {
 	color: #616568;
 }
 div.agent license p {
@@ -406,7 +406,7 @@ div.agent license p {
 /* ==============================================================================
 	RESOURCES
 ================================================================================= */
-div.resources_left_column {
+div.resources-left-column {
 	float: left;
 	width: 450px;
 }
@@ -414,27 +414,27 @@ section.resources img:hover,
 section.hudsearch img:hover {
 	background-color: #fff;
 }
-div.resources_left_column p,
-div.resources_right_column p {
+div.resources-left-column p,
+div.resources-right-column p {
 	font-size: 14px;
 	margin-bottom: 30px;
 }
-div.resources_right_column {
+div.resources-right-column {
 	float: right;
 	width: 400px;
 }
-div#news_feed {
+div#news-feed {
 	float: right;
 	font-size: 14px;
 	width: 400px;
 }
-div#news_feed ul li {
+div#news-feed ul li {
 	margin: 5px 0;
 }
-div#news_feed ul li p {
+div#news-feed ul li p {
 	margin-bottom: 0;
 }
-div#news_feed a {
+div#news-feed a {
 	border-bottom: 1px dotted #385160;
 	color: #385160;
 	transition: background-color linear .1s, border-color linear .1s, color linear .1s;
@@ -442,11 +442,11 @@ div#news_feed a {
 	-o-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 	-webkit-transition: background-color linear .1s, border-color linear .1s, color linear .1s;
 }
-div#news_feed a:hover {
+div#news-feed a:hover {
 	border-bottom: 1px solid #265977;
 	color: #265977;
 }
-span.news_feed_date {
+span.news-feed-date {
 	font-size: 9px;
 	text-shadow: 0 1px 0 rgba(255,255,255,.2);
 }
@@ -534,8 +534,8 @@ form.property select {
 	padding: 5px;
 	width: 200px;
 }
-input[type=button].calculator_button,
-input[type=submit].calculator_button {
+input[type=button].calculator-button,
+input[type=submit].calculator-button {
 	background-color: #eee;
 	border: 3px solid #ccc;
 	color: #555;
@@ -550,20 +550,20 @@ input[type=submit].calculator_button {
 	-o-transition: color linear .1s;
 	-webkit-transition: color linear .1s;
 }
-input[type=button].calculator_button:hover,
-input[type=submit].calculator_button:hover {
+input[type=button].calculator-button:hover,
+input[type=submit].calculator-button:hover {
 	cursor: pointer;
 }
-input[type=button].calculator_button.calculate {
+input[type=button].calculator-button.calculate {
 	margin-right: 25px;
 }
-input[type=button].calculator_button.calculate:hover {
+input[type=button].calculator-button.calculate:hover {
 	color: #677c26;
 }
-input[type=button].calculator_button.clear:hover {
+input[type=button].calculator-button.clear:hover {
 	color: #84101a;
 }
-p.calculator_disclaimer {
+p.calculator-disclaimer {
 	clear: both;
 	font-size: 10px;
 	color: #999;
@@ -578,12 +578,12 @@ p.calculator_disclaimer {
 /* ==============================================================================
 	CONTACT
 ================================================================================= */
-div.contact_form {
+div.contact-form {
 	float: left;
 	min-height: 450px;
 	width: 450px;
 }
-div.contact_info {
+div.contact-info {
 	float: right;
 	width: 400px;
 	text-align: left;
@@ -597,7 +597,7 @@ div.contact_info {
 /* ==============================================================================
 	REPORTS
 ================================================================================= */
-iframe#community_reports {
+iframe#community-reports {
 	background: #e8e1cc url('/images/ajax_loader_light.gif') no-repeat 50% 65px;
 	border-top: 2px solid #bbb;
 	height: 1000px;
@@ -613,7 +613,7 @@ iframe#community_reports {
 /* ==============================================================================
 	MAIN FOOTER
 ================================================================================= */
-footer.main_footer {
+footer.main-footer {
 	background: url('/images/bg_footer.png') repeat-x 0 0;
 	clear: both;
 	height: 140px;
@@ -636,7 +636,7 @@ p.copyright a:hover {
 	border-bottom: none;
 	text-decoration: underline;
 }
-span.design_by {
+span.design-by {
 	display: none;
 	font-size: 8px;
 }
