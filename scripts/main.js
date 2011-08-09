@@ -2,14 +2,14 @@ $(document).ready(function(){
 	
 	// Check pathname and add selected class to nav link
 	var pathname = window.location.pathname;
-	$('ul.nav_main li a').each(function(){
+	$('ul.nav-main li a').each(function(){
 		if($(this).attr('href') == pathname){
 			$(this).addClass('selected');
 		}
 	});	
 	
 	// On click show sub nav [NOT WORKING]
-	$('ul.nav_main li').click(function(){
+	$('ul.nav-main li').click(function(){
 		$(this).find('ul.subnav').slideDown('fast').show();
 		},
 		function(){
@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(window).load(function(){
 	
 	// Initialize nivo slider
-	$('div.main_slider').nivoSlider({
+	$('div.main-slider').nivoSlider({
 		pauseTime: 5000
 	});
 	
