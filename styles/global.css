@@ -5,19 +5,19 @@
 ================================================================================= */
 @font-face {
 	font-family: Aller;
-	src: url('/fonts/aller-webfont/aller_bd-webfont.eot');
+	src: url('/fonts/aller-webfont/aller-bd-webfont.eot');
 	src: local('☺'),
-	url('/fonts/aller-webfont/aller_bd-webfont.woff') format('woff'),
-	url('/fonts/aller-webfont/aller_bd-webfont.ttf') format('truetype'),
-	url('/fonts/aller-webfont/aller_bd-webfont.svg') format('svg');
+	url('/fonts/aller-webfont/aller-bd-webfont.woff') format('woff'),
+	url('/fonts/aller-webfont/aller-bd-webfont.ttf') format('truetype'),
+	url('/fonts/aller-webfont/aller-bd-webfont.svg') format('svg');
 }
 @font-face {
 	font-family: Trajan;
-	src: url('/fonts/trajan-webfont/trajan_regular-webfont.eot');
+	src: url('/fonts/trajan-webfont/trajan-regular-webfont.eot');
 	src: local('☺'),
-	url('/fonts/trajan-webfont/trajan_regular-webfont.woff') format('woff'),
-	url('/fonts/trajan-webfont/trajan_regular-webfont.ttf') format('truetype'),
-	url('/fonts/trajan-webfont/trajan_regular-webfont.svg') format('svg');
+	url('/fonts/trajan-webfont/trajan-regular-webfont.woff') format('woff'),
+	url('/fonts/trajan-webfont/trajan-regular-webfont.ttf') format('truetype'),
+	url('/fonts/trajan-webfont/trajan-regular-webfont.svg') format('svg');
 }
 /* ==============================================================================
 	END FONT IMPORTS
@@ -29,7 +29,7 @@
 	GENERAL
 ================================================================================= */
 body {
-	background: #f0ebd9 url('/images/bg_body.jpg') repeat-x 0 0;
+	background: #f0ebd9 url('/images/bg-body.jpg') repeat-x 0 0;
 	color: #3a3d3f; /* brown: #5c5532; */
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 12px;
@@ -98,7 +98,7 @@ p a:hover {
 	HEADER
 ================================================================================= */
 header {
-	background: url('/images/bg_header.png') repeat-x 0 0;
+	background: url('/images/bg-header.png') repeat-x 0 0;
 	height: 130px;
 	padding-top: 15px;
 	width: 100%;
@@ -110,7 +110,7 @@ a.header-logo {
 	width: 331px;
 }
 a.facebook-button {
-	background: url('/images/facebook_button.png') no-repeat 0 0;
+	background: url('/images/facebook-button.png') no-repeat 0 0;
 	float: right;
 	height: 42px;
 	margin: 75px 10px 0 0;
@@ -291,7 +291,7 @@ section.main-content img {
 	MAIN NIVO SLIDER
 ================================================================================= */
 div.main-slider {
-	background: #d6cfbc url('/images/ajax_loader.gif') no-repeat 50% 50%;
+	background: #d6cfbc url('/images/ajax-loader.gif') no-repeat 50% 50%;
 	border: 7px solid #b7b09f;
 	left: -15px;
 	height: 450px;
@@ -598,7 +598,7 @@ div.contact-info {
 	REPORTS
 ================================================================================= */
 iframe#community-reports {
-	background: #e8e1cc url('/images/ajax_loader_light.gif') no-repeat 50% 65px;
+	background: #e8e1cc url('/images/ajax-loader-light.gif') no-repeat 50% 65px;
 	border-top: 2px solid #bbb;
 	height: 1000px;
 	padding-top: 10px;
@@ -614,7 +614,7 @@ iframe#community-reports {
 	MAIN FOOTER
 ================================================================================= */
 footer.main-footer {
-	background: url('/images/bg_footer.png') repeat-x 0 0;
+	background: url('/images/bg-footer.png') repeat-x 0 0;
 	clear: both;
 	height: 140px;
 	margin: 35px auto;
