@@ -65,7 +65,7 @@ function updateClock ( )
   currentHours = ( currentHours == 0 ) ? 12 : currentHours;
 
   // Compose the string for display
-  var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+  var currentTimeString = currentHours + ":" + currentMinutes+ " " + timeOfDay;
 
   // Update the time display
   document.getElementById("clock").firstChild.nodeValue = currentTimeString;
