@@ -636,7 +636,7 @@ p.copyright a:hover {
 	border-bottom: none;
 	text-decoration: underline;
 }
-span.design-by {
+.site-credit {
 	display: block;
 	font-size: 8px;
 }
